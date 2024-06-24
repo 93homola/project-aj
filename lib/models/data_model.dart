@@ -72,49 +72,68 @@ class Word extends LanguageItem {
   }
 }
 
-class Items {
-  final List<Verb> verbs;
-  final List<Word> words;
+class Rule {
+  final int level;
 
-  Items({required this.verbs, required this.words});
+  Rule({required this.level});
 
-  factory Items.fromJson(Map<String, dynamic> json) {
-    List<Verb> verbs = [];
-    List<Word> words = [];
-
-    if (json.containsKey('type') && json['type'].containsKey('verbs')) {
-      verbs = (json['type']['verbs'] as List).map((v) {
-        Map<String, dynamic> verbMap = Map<String, dynamic>.from(v as Map);
-        return Verb.fromJson(verbMap);
-      }).toList();
-      words = (json['type']['words'] as List).map((w) {
-        Map<String, dynamic> wordMap = Map<String, dynamic>.from(w as Map);
-        return Word.fromJson(wordMap);
-      }).toList();
-    } else {}
-    return Items(verbs: verbs, words: words);
-  }
-
-  List<dynamic> toJson() {
-    return verbs.map((verb) => verb.toJson()).toList();
+  factory Rule.fromJson(Map<String, dynamic> json) {
+    return Rule(
+      level: json['level'],
+    );
   }
 }
 
-/* class Items {
-  final List<Item> items;
+class DatabaseData {
+  final List<Verb> verbs;
+  final List<Word> words;
+  final List<Rule> verbsRules;
+  final List<Rule> wordsRules;
 
-  Items({required this.items});
+  DatabaseData(
+      {required this.verbs,
+      required this.words,
+      required this.verbsRules,
+      required this.wordsRules});
 
-  factory Items.fromJson(List<dynamic> json) {
-    List<Item> items = json.map((i) {
-      Map<String, dynamic> itemMap = Map<String, dynamic>.from(i as Map);
-      return Item.fromJson(itemMap);
-    }).toList();
+  factory DatabaseData.fromJson(Map<String, dynamic> json) {
+    List<Verb> verbs = [];
+    List<Word> words = [];
+    List<Rule> verbsRules = [];
+    List<Rule> wordsRules = [];
 
-    return Items(items: items);
+    if (json.containsKey('verbs')) {
+      verbs = (json['verbs'] as List).map((v) {
+        Map<String, dynamic> verbMap = Map<String, dynamic>.from(v as Map);
+        return Verb.fromJson(verbMap);
+      }).toList();
+    }
+    if (json.containsKey('words')) {
+      words = (json['words'] as List).map((w) {
+        Map<String, dynamic> wordMap = Map<String, dynamic>.from(w as Map);
+        return Word.fromJson(wordMap);
+      }).toList();
+    }
+    if (json.containsKey('verbsRules')) {
+      verbsRules = (json['verbsRules'] as List).map((v) {
+        Map<String, dynamic> verbsRulesMap =
+            Map<String, dynamic>.from(v as Map);
+        return Rule.fromJson(verbsRulesMap);
+      }).toList();
+    }
+    if (json.containsKey('wordsRules')) {
+      wordsRules = (json['wordsRules'] as List).map((w) {
+        Map<String, dynamic> wordsRulesMap =
+            Map<String, dynamic>.from(w as Map);
+        return Rule.fromJson(wordsRulesMap);
+      }).toList();
+    }
+
+    return DatabaseData(
+      verbs: verbs,
+      words: words,
+      verbsRules: verbsRules,
+      wordsRules: wordsRules,
+    );
   }
-
-  List<dynamic> toJson() {
-    return items.map((item) => item.toJson()).toList();
-  }
-} */
+}

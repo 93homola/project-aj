@@ -20,12 +20,10 @@ class _IntroductoryViewState extends State<IntroductoryView> {
         .then((_) {
       print(Provider.of<FirebaseDataProvider>(context, listen: false)
           .verbs
-          .first
-          .cs);
+          .length);
       print(Provider.of<FirebaseDataProvider>(context, listen: false)
           .words
-          .first
-          .cs);
+          .length);
     });
   }
 

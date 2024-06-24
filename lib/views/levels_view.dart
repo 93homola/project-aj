@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
-import 'package:project_aj/data/levels_data.dart';
-import 'package:project_aj/models/levels_model.dart';
+import '../provider/data_provider.dart';
+import 'package:provider/provider.dart';
 
 class LevelsView extends StatelessWidget {
   final String purpose;
@@ -10,8 +10,9 @@ class LevelsView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Levels? selectedLevels =
-        levelsData.firstWhere((levelData) => levelData.purpose == purpose);
+    print(purpose);
+    final levels = Provider.of<FirebaseDataProvider>(context, listen: false)
+        .getRulesByName(purpose);
     return Scaffold(
       appBar: AppBar(
         title: Text(purpose),
@@ -29,7 +30,7 @@ class LevelsView extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            ...selectedLevels.levels.map((level) {
+            ...levels.map((level) {
               return Padding(
                 padding: const EdgeInsets.all(6),
                 child: Align(
