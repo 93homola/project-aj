@@ -1,0 +1,230 @@
+{
+  "rules": {
+    "verbsRules": [
+      {
+        "level": 1
+      },
+      {
+        "level": 2
+      },
+      {
+        "level": 3
+      },
+      {
+        "level": 4
+      },
+      {
+        "level": 5
+      },
+      {
+        "level": 6
+      },
+      {
+        "level": 7
+      },
+      {
+        "level": 8
+      },
+      {
+        "level": 9
+      },
+      {
+        "level": 10
+      }
+    ],
+    "wordsRules": [
+      {
+        "level": 1
+      },
+      {
+        "level": 2
+      },
+      {
+        "level": 3
+      },
+      {
+        "level": 4
+      },
+      {
+        "level": 5
+      },
+      {
+        "level": 6
+      },
+      {
+        "level": 7
+      },
+      {
+        "level": 8
+      },
+      {
+        "level": 9
+      },
+      {
+        "level": 10
+      }
+    ]
+  },
+  "type": {
+    "verbs": [
+      {
+        "cs": "kopat, hloubit",
+        "en": "dig",
+        "level": 1,
+        "id": 0
+      },
+      {
+        "cs": "identifikovat",
+        "en": "identify",
+        "level": 1,
+        "id": 1
+      },
+      {
+        "cs": "klepat",
+        "en": "knock",
+        "level": 1,
+        "id": 2
+      },
+      {
+        "cs": "zridit, vytvorit",
+        "en": "establish",
+        "level": 1,
+        "id": 3
+      },
+      {
+        "cs": "publikovat",
+        "en": "publish",
+        "level": 1,
+        "id": 4
+      },
+      {
+        "cs": "zakazat",
+        "en": "forbid",
+        "level": 1,
+        "id": 5
+      },
+      {
+        "cs": "trhat, natrhnout",
+        "en": "tear",
+        "level": 1,
+        "id": 6
+      },
+      {
+        "cs": "obout",
+        "en": "shoe",
+        "level": 1,
+        "id": 7
+      },
+      {
+        "cs": "vyslovit",
+        "en": "pronounce",
+        "level": 1,
+        "id": 8
+      },
+      {
+        "cs": "obsadit, naplnit",
+        "en": "fill",
+        "level": 1,
+        "id": 9
+      },
+      {
+        "cs": "kormidlovat",
+        "en": "steer",
+        "level": 1,
+        "id": 10
+      },
+      {
+        "cs": "chrapat",
+        "en": "snore",
+        "level": 1,
+        "id": 11
+      },
+      {
+        "cs": "ovladat, kontrolovat",
+        "en": "control",
+        "level": 1,
+        "id": 12
+      }
+    ],
+    "words": [
+      {
+        "cs": "schopný",
+        "en": "able",
+        "level": 1,
+        "id": 0
+      },
+      {
+        "cs": "herec",
+        "en": "actor",
+        "level": 1,
+        "id": 1
+      },
+      {
+        "cs": "skutečný, současný",
+        "en": "actual",
+        "level": 1,
+        "id": 2
+      },
+      {
+        "cs": "strach",
+        "en": "afraid",
+        "level": 1,
+        "id": 3
+      },
+      {
+        "cs": "věk",
+        "en": "age",
+        "level": 1,
+        "id": 4
+      },
+      {
+        "cs": "vše",
+        "en": "all",
+        "level": 1,
+        "id": 5
+      },
+      {
+        "cs": "odpověď",
+        "en": "answer",
+        "level": 1,
+        "id": 6
+      },
+      {
+        "cs": "byt",
+        "en": "apartment",
+        "level": 1,
+        "id": 7
+      },
+      {
+        "cs": "oblast",
+        "en": "area",
+        "level": 1,
+        "id": 8
+      },
+      {
+        "cs": "hrozný",
+        "en": "awful",
+        "level": 1,
+        "id": 9
+      },
+      {
+        "cs": "taška",
+        "en": "bag",
+        "level": 1,
+        "id": 10
+      },
+      {
+        "cs": "základ",
+        "en": "basis",
+        "level": 1,
+        "id": 11
+      },
+      {
+        "cs": "medvěd",
+        "en": "bear",
+        "level": 1,
+        "id": 12
+      }
+    ]
+  }
+}

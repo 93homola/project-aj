@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class Levels {
   final List<Level> levels;
   final String purpose;
@@ -12,12 +10,11 @@ class Levels {
 
 class Level {
   final int level;
-  final Color color;
+
   final int count;
 
   Level({
     required this.level,
-    required this.color,
     required this.count,
   });
 }

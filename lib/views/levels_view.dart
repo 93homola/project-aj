@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
-import 'package:project_aj/data_test/levels_data.dart';
+import 'package:project_aj/data/levels_data.dart';
 import 'package:project_aj/models/levels_model.dart';
 
 class LevelsView extends StatelessWidget {

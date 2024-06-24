@@ -1,9 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
+import 'package:project_aj/provider/data_provider.dart';
 import 'package:project_aj/views/levels_view.dart';
+import 'package:provider/provider.dart';
 
-class IntroductoryView extends StatelessWidget {
+class IntroductoryView extends StatefulWidget {
   const IntroductoryView({super.key});
+
+  @override
+  State<IntroductoryView> createState() => _IntroductoryViewState();
+}
+
+class _IntroductoryViewState extends State<IntroductoryView> {
+  @override
+  void initState() {
+    super.initState();
+    Provider.of<FirebaseDataProvider>(context, listen: false)
+        .loadData()
+        .then((_) {
+      print(Provider.of<FirebaseDataProvider>(context, listen: false)
+          .verbs
+          .first
+          .cs);
+      print(Provider.of<FirebaseDataProvider>(context, listen: false)
+          .words
+          .first
+          .cs);
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
