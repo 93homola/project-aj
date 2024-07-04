@@ -1,25 +1,15 @@
-abstract class LanguageItem {
+class Verb {
   final String cs;
   final String en;
   final int level;
   final int id;
+  final String type = 'verb';
 
-  LanguageItem({
+  Verb({
     required this.cs,
     required this.en,
     required this.level,
     required this.id,
-  });
-
-  Map<String, dynamic> toJson();
-}
-
-class Verb extends LanguageItem {
-  Verb({
-    required super.cs,
-    required super.en,
-    required super.level,
-    required super.id,
   });
 
   factory Verb.fromJson(Map<String, dynamic> json) {
@@ -31,36 +21,30 @@ class Verb extends LanguageItem {
     );
   }
 
-  @override
   Map<String, dynamic> toJson() {
     return {
       'cs': cs,
       'en': en,
       'level': level,
       'id': id,
-      'type': 'verb',
+      'type': type,
     };
   }
 }
 
-class Word extends LanguageItem {
-  Word({
-    required super.cs,
-    required super.en,
-    required super.level,
-    required super.id,
-  });
+class Word {
+  final String cs;
+  final String en;
+  final int level;
+  final int id;
+  final String type = 'word';
 
-  @override
-  Map<String, dynamic> toJson() {
-    return {
-      'cs': cs,
-      'en': en,
-      'level': level,
-      'id': id,
-      'type': 'word',
-    };
-  }
+  Word({
+    required this.cs,
+    required this.en,
+    required this.level,
+    required this.id,
+  });
 
   factory Word.fromJson(Map<String, dynamic> json) {
     return Word(
@@ -70,70 +54,54 @@ class Word extends LanguageItem {
       id: json['id'],
     );
   }
-}
 
-class Rule {
-  final int level;
-
-  Rule({required this.level});
-
-  factory Rule.fromJson(Map<String, dynamic> json) {
-    return Rule(
-      level: json['level'],
-    );
+  Map<String, dynamic> toJson() {
+    return {
+      'cs': cs,
+      'en': en,
+      'level': level,
+      'id': id,
+      'type': type,
+    };
   }
 }
 
-class DatabaseData {
-  final List<Verb> verbs;
-  final List<Word> words;
-  final List<Rule> verbsRules;
-  final List<Rule> wordsRules;
+class Verbs {
+  final List<Verb> verbList;
 
-  DatabaseData(
-      {required this.verbs,
-      required this.words,
-      required this.verbsRules,
-      required this.wordsRules});
+  Verbs({required this.verbList});
 
-  factory DatabaseData.fromJson(Map<String, dynamic> json) {
-    List<Verb> verbs = [];
-    List<Word> words = [];
-    List<Rule> verbsRules = [];
-    List<Rule> wordsRules = [];
+  Map<String, dynamic> toJson() {
+    return {
+      'verbs': verbList.map((verb) => verb.toJson()).toList(),
+    };
+  }
 
-    if (json.containsKey('verbs')) {
-      verbs = (json['verbs'] as List).map((v) {
-        Map<String, dynamic> verbMap = Map<String, dynamic>.from(v as Map);
-        return Verb.fromJson(verbMap);
-      }).toList();
-    }
-    if (json.containsKey('words')) {
-      words = (json['words'] as List).map((w) {
-        Map<String, dynamic> wordMap = Map<String, dynamic>.from(w as Map);
-        return Word.fromJson(wordMap);
-      }).toList();
-    }
-    if (json.containsKey('verbsRules')) {
-      verbsRules = (json['verbsRules'] as List).map((v) {
-        Map<String, dynamic> verbsRulesMap =
-            Map<String, dynamic>.from(v as Map);
-        return Rule.fromJson(verbsRulesMap);
-      }).toList();
-    }
-    if (json.containsKey('wordsRules')) {
-      wordsRules = (json['wordsRules'] as List).map((w) {
-        Map<String, dynamic> wordsRulesMap =
-            Map<String, dynamic>.from(w as Map);
-        return Rule.fromJson(wordsRulesMap);
-      }).toList();
-    }
+  factory Verbs.fromJson(List<dynamic> jsonList) {
+    List<Verb> verbs = jsonList.map((json) {
+      Map<String, dynamic> jsonMap = Map<String, dynamic>.from(json as Map);
+      return Verb.fromJson(jsonMap);
+    }).toList();
+    return Verbs(verbList: verbs);
+  }
+}
 
-    return DatabaseData(
-      verbs: verbs,
-      words: words,
-      verbsRules: verbsRules,
-      wordsRules: wordsRules,
-    );
+class Words {
+  final List<Word> wordList;
+
+  Words({required this.wordList});
+
+  Map<String, dynamic> toJson() {
+    return {
+      'words': wordList.map((word) => word.toJson()).toList(),
+    };
+  }
+
+  factory Words.fromJson(List<dynamic> jsonList) {
+    List<Word> words = jsonList.map((json) {
+      Map<String, dynamic> jsonMap = Map<String, dynamic>.from(json as Map);
+      return Word.fromJson(jsonMap);
+    }).toList();
+    return Words(wordList: words);
   }
 }

@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
+import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/provider/data_provider.dart';
 import 'package:project_aj/views/levels_view.dart';
 import 'package:provider/provider.dart';
+
+import '../models/enums.dart';
 
 class IntroductoryView extends StatefulWidget {
   const IntroductoryView({super.key});
@@ -16,7 +19,7 @@ class _IntroductoryViewState extends State<IntroductoryView> {
   void initState() {
     super.initState();
     Provider.of<FirebaseDataProvider>(context, listen: false)
-        .loadData()
+        .loadAllData()
         .then((_) {
       print(Provider.of<FirebaseDataProvider>(context, listen: false)
           .verbs
@@ -91,6 +94,22 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                     }),
                   );
                 }),
+            const SizedBox(height: 12),
+            IntroductoryButton(
+                buttonText: 'Add item',
+                onPressed: () {
+                  Provider.of<FirebaseDataProvider>(context, listen: false)
+                      .editItem(
+                    Verb(
+                      cs: "běhat",
+                      en: "run",
+                      level: 1,
+                      id: 1,
+                    ),
+                    ItemType.words,
+                  );
+                }),
+            const SizedBox(height: 12),
           ],
         ),
       ),

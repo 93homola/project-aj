@@ -1,0 +1,741 @@
+{
+  "verbs": [
+    {
+      "cs": "kopat",
+      "en": "dig",
+      "id": 0,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "identifikovat",
+      "en": "identify",
+      "id": 1,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "klepat",
+      "en": "knock",
+      "id": 2,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zřídit, vytvořit",
+      "en": "establish",
+      "id": 3,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "publikovat",
+      "en": "publish",
+      "id": 4,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zakázat",
+      "en": "forbid",
+      "id": 5,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "trhat, natrhnout",
+      "en": "tear",
+      "id": 6,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obout",
+      "en": "shoe",
+      "id": 7,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vyslovit",
+      "en": "pronounce",
+      "id": 8,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obsadit, naplnit",
+      "en": "fill",
+      "id": 9,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "kormidlovat",
+      "en": "steer",
+      "id": 10,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "chrapat",
+      "en": "snore",
+      "id": 11,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ovládat, kontrolovat",
+      "en": "control",
+      "id": 12,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "doufat",
+      "en": "hope",
+      "id": 13,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vynalezt",
+      "en": "invent",
+      "id": 14,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "lepit",
+      "en": "paste, stick",
+      "id": 15,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "odmítnout",
+      "en": "refuse",
+      "id": 16,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "kopat",
+      "en": "kick",
+      "id": 17,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "skáčet",
+      "en": "fell",
+      "id": 18,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obávat se, bát se",
+      "en": "fear",
+      "id": 19,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "odpovídat",
+      "en": "respond, answer",
+      "id": 20,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "projít, složit",
+      "en": "pass",
+      "id": 21,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "fungovat",
+      "en": "function",
+      "id": 22,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "mučit",
+      "en": "rack",
+      "id": 23,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "tahat",
+      "en": "tug, pull",
+      "id": 24,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "popíjet, srkat",
+      "en": "sip",
+      "id": 25,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "mlít",
+      "en": "grind",
+      "id": 26,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přepsat, předělat",
+      "en": "rewrite",
+      "id": 27,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vytočit",
+      "en": "dial",
+      "id": 28,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "pochybovat",
+      "en": "doubt",
+      "id": 29,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "připojit, spojit",
+      "en": "join",
+      "id": 30,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "cvičit, procvičit",
+      "en": "practise",
+      "id": 31,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "šeptat",
+      "en": "whisper",
+      "id": 32,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zajímat se",
+      "en": "interest",
+      "id": 33,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "financovat",
+      "en": "fund",
+      "id": 34,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "reagovat",
+      "en": "react",
+      "id": 35,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "tát",
+      "en": "melt",
+      "id": 36,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vyplnit",
+      "en": "fill",
+      "id": 37,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vytvořit",
+      "en": "create",
+      "id": 38,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obsluhovat",
+      "en": "operate",
+      "id": 39,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vystoupit (např., z vlaku)",
+      "en": "alight, (get off)",
+      "id": 40,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dopravit, nosit, přenášet",
+      "en": "carry",
+      "id": 41,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zvážit",
+      "en": "weight up",
+      "id": 42,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hodnotit, ocenit",
+      "en": "rate",
+      "id": 43,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zvýšit, vzrůstat",
+      "en": "increase",
+      "id": 44,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "chovat se",
+      "en": "behave",
+      "id": 45,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obsahovat, zahrnout",
+      "en": "include",
+      "id": 46,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozlít",
+      "en": "spill",
+      "id": 47,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "odpustit, odpouštět",
+      "en": "forgive",
+      "id": 48,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "všimnout",
+      "en": "notice",
+      "id": 49,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "připravit",
+      "en": "prepare",
+      "id": 50,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nevšímat si, ignorovat",
+      "en": "ignore",
+      "id": 51,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "divit se",
+      "en": "wonder",
+      "id": 52,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ladit",
+      "en": "tune",
+      "id": 53,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hodnotit, vyhodnotit",
+      "en": "evaluate",
+      "id": 54,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "usilovat",
+      "en": "effort",
+      "id": 55,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "soudit",
+      "en": "judge",
+      "id": 56,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "chlastat, nasávat",
+      "en": "booze",
+      "id": 57,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ilustrovat",
+      "en": "illustrate",
+      "id": 58,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "opírat se",
+      "en": "lean (leant)",
+      "id": 59,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obout se",
+      "en": "shoe (put shoes on)",
+      "id": 60,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "spěchat",
+      "en": "rush",
+      "id": 61,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "usilovat",
+      "en": "seek (sought, sought)",
+      "id": 62,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "urovnat, osídlit, usadit",
+      "en": "settle",
+      "id": 63,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vydělat",
+      "en": "earn",
+      "id": 64,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "kritizovat",
+      "en": "criticize",
+      "id": 65,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "pamatovat si, vzpomenout",
+      "en": "remember",
+      "id": 66,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "doporučit",
+      "en": "recommend",
+      "id": 67,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "gumovat",
+      "en": "erase",
+      "id": 68,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "plavit, plout",
+      "en": "float",
+      "id": 69,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozvinout, vyvinout",
+      "en": "develop",
+      "id": 70,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "muset (hovorově)",
+      "en": "gotta",
+      "id": 71,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "uniknout",
+      "en": "escape",
+      "id": 72,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hladovět",
+      "en": "starve",
+      "id": 73,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "klesat",
+      "en": "drop",
+      "id": 74,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obklopit",
+      "en": "surround",
+      "id": 75,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "prokázat",
+      "en": "prove",
+      "id": 76,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "mávat, vlnit",
+      "en": "wave",
+      "id": 77,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "naložit, nacist",
+      "en": "load",
+      "id": 78,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zakřičet",
+      "en": "scream",
+      "id": 79,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "utéci",
+      "en": "flee (fled)",
+      "id": 80,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "překonat, zdolat",
+      "en": "overcome (came, come)",
+      "id": 81,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "fascinovat",
+      "en": "fascinate",
+      "id": 82,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "předstírat",
+      "en": "pretend",
+      "id": 83,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozdrtit, zmačknout",
+      "en": "crush",
+      "id": 84,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "prodloužit, rozšířit",
+      "en": "extend",
+      "id": 85,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "probadat, prozkoumat",
+      "en": "explore",
+      "id": 86,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dostavit se",
+      "en": "appear",
+      "id": 87,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vtlačit, zapůsobit",
+      "en": "impress",
+      "id": 88,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obsahovat",
+      "en": "contain",
+      "id": 89,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "honit, pronásledovat",
+      "en": "chase",
+      "id": 90,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "připomenout, připomínat",
+      "en": "remind",
+      "id": 91,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "očekávat",
+      "en": "expect",
+      "id": 92,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "okorenit, opepřit, dochutit",
+      "en": "spice",
+      "id": 93,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "potěšit",
+      "en": "glad",
+      "id": 94,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "znečistit, poskvrnit",
+      "en": "pollute",
+      "id": 95,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nastavit",
+      "en": "set up",
+      "id": 96,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "navrhnout (řešení)",
+      "en": "suggest",
+      "id": 97,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "plést, mást",
+      "en": "confuse",
+      "id": 98,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "otravit",
+      "en": "poison",
+      "id": 99,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "uvědomit si",
+      "en": "relize",
+      "id": 100,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "krotit se",
+      "en": "restrain",
+      "id": 101,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dostat smyk",
+      "en": "slip",
+      "id": 102,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "žalovat",
+      "en": "sue",
+      "id": 103,
+      "level": 1,
+      "type": "verb"
+    }
+  ],
+  "words": [
+    {
+      "cs": "schopny",
+      "en": "able",
+      "id": 0,
+      "level": 1,
+      "type": "word"
+    }
+  ]
+}

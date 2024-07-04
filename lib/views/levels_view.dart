@@ -11,8 +11,8 @@ class LevelsView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     print(purpose);
-    final levels = Provider.of<FirebaseDataProvider>(context, listen: false)
-        .getRulesByName(purpose);
+    /* final levels = Provider.of<FirebaseDataProvider>(context, listen: false)
+        .getRulesByName(purpose); */
     return Scaffold(
       appBar: AppBar(
         title: Text(purpose),
@@ -30,7 +30,7 @@ class LevelsView extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            ...levels.map((level) {
+            /* ...levels.map((level) {
               return Padding(
                 padding: const EdgeInsets.all(6),
                 child: Align(
@@ -43,7 +43,7 @@ class LevelsView extends StatelessWidget {
                   ),
                 ),
               );
-            }),
+            }), */
           ],
         ),
       ),
