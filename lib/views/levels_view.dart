@@ -19,8 +19,8 @@ class LevelsView extends StatelessWidget {
       ),
       body: Center(
         child: ListView(
-          children: [
-            const Padding(
+          children: const [
+            Padding(
               padding: EdgeInsets.all(20),
               child: Text(
                 'Vyber si úroveň:',
@@ -30,20 +30,6 @@ class LevelsView extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
-            /* ...levels.map((level) {
-              return Padding(
-                padding: const EdgeInsets.all(6),
-                child: Align(
-                  alignment: Alignment.center,
-                  child: IntroductoryButton(
-                    buttonText: 'Úroveň ${level.level}',
-                    onPressed: () {
-                      print(level.level);
-                    },
-                  ),
-                ),
-              );
-            }), */
           ],
         ),
       ),

@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:firebase_database/firebase_database.dart';
+import 'package:flutter/material.dart';
 import 'package:project_aj/helpers/functions.dart';
 import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
@@ -13,9 +14,13 @@ class FirebaseDataProvider extends ChangeNotifier {
     wordList: [],
   );
 
+  Settings? _settings;
+
   List<Verb> get verbs => _verbs.verbList;
 
   List<Word> get words => _words.wordList;
+
+  Settings? get settings => _settings;
 
   final database = FirebaseDatabase.instance.ref();
 
@@ -30,14 +35,20 @@ class FirebaseDataProvider extends ChangeNotifier {
       _words =
           Words.fromJson(itemsFromDatabase.snapshot.value as List<dynamic>);
     }
+  }
 
-    notifyListeners();
+  Future<void> loadSettings() async {
+    DatabaseEvent itemsFromDatabase = await database.child('/settings').once();
+
+    _settings = Settings.fromJson(
+        (itemsFromDatabase.snapshot.value as Map).cast<String, dynamic>());
   }
 
   Future<void> loadAllData() async {
     await Future.wait([
       loadData(ItemType.verbs),
       loadData(ItemType.words),
+      loadSettings(),
     ]);
   }
 

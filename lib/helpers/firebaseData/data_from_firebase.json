@@ -1,4 +1,8 @@
 {
+  "settings": {
+    "verbsLevels": 6,
+    "wordsLevels": 6
+  },
   "verbs": [
     {
       "cs": "kopat",

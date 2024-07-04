@@ -15,18 +15,17 @@ class IntroductoryView extends StatefulWidget {
 }
 
 class _IntroductoryViewState extends State<IntroductoryView> {
+  bool _isDataLoaded = false;
+
   @override
   void initState() {
     super.initState();
     Provider.of<FirebaseDataProvider>(context, listen: false)
         .loadAllData()
         .then((_) {
-      print(Provider.of<FirebaseDataProvider>(context, listen: false)
-          .verbs
-          .length);
-      print(Provider.of<FirebaseDataProvider>(context, listen: false)
-          .words
-          .length);
+      setState(() {
+        _isDataLoaded = true;
+      });
     });
   }
 
@@ -34,84 +33,95 @@ class _IntroductoryViewState extends State<IntroductoryView> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            const Padding(
-              padding: EdgeInsets.all(10),
-              child: Text(
-                'Project_AJ',
-                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w700),
-                textAlign: TextAlign.center,
-              ),
-            ),
-            const Padding(
-              padding: EdgeInsets.all(10),
-              child: Text(
-                'Vyber si sekci kterou chceš procvičit',
-                style: TextStyle(
-                  fontSize: 22,
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
-            const SizedBox(height: 60),
-            IntroductoryButton(
-                buttonText: 'Slovesa',
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) {
-                      return const LevelsView(
-                        purpose: 'slovesa',
-                      );
-                    }),
-                  );
-                }),
-            const SizedBox(height: 12),
-            IntroductoryButton(
-                buttonText: 'Slovíčka',
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) {
-                      return const LevelsView(
-                        purpose: 'slovicka',
-                      );
-                    }),
-                  );
-                }),
-            const SizedBox(height: 12),
-            IntroductoryButton(
-                buttonText: 'Fráze',
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) {
-                      return const LevelsView(
-                        purpose: 'fraze',
-                      );
-                    }),
-                  );
-                }),
-            const SizedBox(height: 12),
-            IntroductoryButton(
-                buttonText: 'Add item',
-                onPressed: () {
-                  Provider.of<FirebaseDataProvider>(context, listen: false)
-                      .editItem(
-                    Verb(
-                      cs: "běhat",
-                      en: "run",
-                      level: 1,
-                      id: 1,
+        child: (_isDataLoaded)
+            ? Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Text(
+                      'Project_AJ',
+                      style:
+                          TextStyle(fontSize: 30, fontWeight: FontWeight.w700),
+                      textAlign: TextAlign.center,
                     ),
-                    ItemType.words,
-                  );
-                }),
-            const SizedBox(height: 12),
-          ],
-        ),
+                  ),
+                  const Padding(
+                    padding: EdgeInsets.all(10),
+                    child: Text(
+                      'Vyber si sekci kterou chceš procvičit',
+                      style: TextStyle(
+                        fontSize: 22,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                  const SizedBox(height: 60),
+                  IntroductoryButton(
+                      buttonText: 'Slovesa',
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return const LevelsView(
+                              purpose: 'slovesa',
+                            );
+                          }),
+                        );
+                      }),
+                  const SizedBox(height: 12),
+                  IntroductoryButton(
+                      buttonText: 'Slovíčka',
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return const LevelsView(
+                              purpose: 'slovicka',
+                            );
+                          }),
+                        );
+                      }),
+                  const SizedBox(height: 12),
+                  IntroductoryButton(
+                      buttonText: 'Fráze',
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) {
+                            return const LevelsView(
+                              purpose: 'fraze',
+                            );
+                          }),
+                        );
+                      }),
+                  const SizedBox(height: 12),
+                  IntroductoryButton(
+                      buttonText: 'Add item',
+                      onPressed: () {
+                        Provider.of<FirebaseDataProvider>(context,
+                                listen: false)
+                            .editItem(
+                          Verb(
+                            cs: "běhat",
+                            en: "run",
+                            level: 1,
+                            id: 1,
+                          ),
+                          ItemType.words,
+                        );
+                      }),
+                  const SizedBox(height: 12),
+                  IntroductoryButton(
+                      buttonText: 'Load settings',
+                      onPressed: () async {
+                        await Provider.of<FirebaseDataProvider>(context,
+                                listen: false)
+                            .loadSettings();
+                      }),
+                ],
+              )
+            : const CircularProgressIndicator(),
       ),
     );
   }

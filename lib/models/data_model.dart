@@ -105,3 +105,27 @@ class Words {
     return Words(wordList: words);
   }
 }
+
+class Settings {
+  final int verbsLevels;
+  final int wordsLevels;
+
+  Settings({
+    required this.verbsLevels,
+    required this.wordsLevels,
+  });
+
+  factory Settings.fromJson(Map<String, dynamic> json) {
+    return Settings(
+      verbsLevels: json['verbsLevels'],
+      wordsLevels: json['wordsLevels'],
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'verbsLevels': verbsLevels,
+      'wordsLevels': wordsLevels,
+    };
+  }
+}
