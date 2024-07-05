@@ -24,6 +24,26 @@ class FirebaseDataProvider extends ChangeNotifier {
 
   final database = FirebaseDatabase.instance.ref();
 
+  int getLevelsCount(ItemType type) {
+    if (type == ItemType.verbs) {
+      return _settings!.verbsLevels;
+    } else {
+      return _settings!.wordsLevels;
+    }
+  }
+
+  List<dynamic> getItemsForLevel(int level, ItemType type) {
+    if (type == ItemType.verbs) {
+      return _verbs.verbList
+          .where((element) => element.level == level)
+          .toList();
+    } else {
+      return _words.wordList
+          .where((element) => element.level == level)
+          .toList();
+    }
+  }
+
   Future<void> loadData(ItemType type) async {
     DatabaseEvent itemsFromDatabase =
         await database.child('/${getTypeForDatabase(type)}').once();

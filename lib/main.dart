@@ -39,6 +39,10 @@ class MyApp extends StatelessWidget {
               color: color3,
             ),
           ),
+          bottomAppBarTheme: BottomAppBarTheme(
+            color: color2,
+            height: 100,
+          ),
           colorScheme: ColorScheme.fromSeed(
             seedColor: Colors.white,
             surface: color1,

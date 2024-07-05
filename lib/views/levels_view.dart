@@ -1,26 +1,28 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
+import 'package:project_aj/models/enums.dart';
+import 'package:project_aj/views/guess_view.dart';
 import '../provider/data_provider.dart';
 import 'package:provider/provider.dart';
 
 class LevelsView extends StatelessWidget {
-  final String purpose;
+  final ItemType type;
 
-  const LevelsView({super.key, required this.purpose});
+  const LevelsView({super.key, required this.type});
 
   @override
   Widget build(BuildContext context) {
-    print(purpose);
-    /* final levels = Provider.of<FirebaseDataProvider>(context, listen: false)
-        .getRulesByName(purpose); */
+    final dataProvider =
+        Provider.of<FirebaseDataProvider>(context, listen: false);
+    final int levelsCount = dataProvider.getLevelsCount(type);
     return Scaffold(
       appBar: AppBar(
-        title: Text(purpose),
+        title: Text(type.name),
       ),
       body: Center(
         child: ListView(
-          children: const [
-            Padding(
+          children: [
+            const Padding(
               padding: EdgeInsets.all(20),
               child: Text(
                 'Vyber si úroveň:',
@@ -30,6 +32,30 @@ class LevelsView extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
             ),
+            ...List.generate(levelsCount, (index) {
+              final items = dataProvider.getItemsForLevel(index + 1, type);
+              return Padding(
+                padding: const EdgeInsets.all(6.0),
+                child: Align(
+                  alignment: Alignment.center,
+                  child: IntroductoryButton(
+                    buttonText: 'Level ${index + 1} (${items.length})',
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) {
+                          return QuessView(
+                            type: type,
+                            items: items,
+                            level: index + 1,
+                          );
+                        }),
+                      );
+                    },
+                  ),
+                ),
+              );
+            }),
           ],
         ),
       ),

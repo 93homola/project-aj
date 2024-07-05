@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
-import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/provider/data_provider.dart';
 import 'package:project_aj/views/levels_view.dart';
 import 'package:provider/provider.dart';
-
 import '../models/enums.dart';
 
 class IntroductoryView extends StatefulWidget {
@@ -64,7 +62,7 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                           context,
                           MaterialPageRoute(builder: (context) {
                             return const LevelsView(
-                              purpose: 'slovesa',
+                              type: ItemType.verbs,
                             );
                           }),
                         );
@@ -77,7 +75,7 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                           context,
                           MaterialPageRoute(builder: (context) {
                             return const LevelsView(
-                              purpose: 'slovicka',
+                              type: ItemType.words,
                             );
                           }),
                         );
@@ -90,7 +88,7 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                           context,
                           MaterialPageRoute(builder: (context) {
                             return const LevelsView(
-                              purpose: 'fraze',
+                              type: ItemType.phrase,
                             );
                           }),
                         );
@@ -99,7 +97,7 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                   IntroductoryButton(
                       buttonText: 'Add item',
                       onPressed: () {
-                        Provider.of<FirebaseDataProvider>(context,
+                        /* Provider.of<FirebaseDataProvider>(context,
                                 listen: false)
                             .editItem(
                           Verb(
@@ -109,15 +107,15 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                             id: 1,
                           ),
                           ItemType.words,
-                        );
+                        ); */
                       }),
                   const SizedBox(height: 12),
                   IntroductoryButton(
                       buttonText: 'Load settings',
-                      onPressed: () async {
-                        await Provider.of<FirebaseDataProvider>(context,
+                      onPressed: () {
+                        /* Provider.of<FirebaseDataProvider>(context,
                                 listen: false)
-                            .loadSettings();
+                            .loadSettings(); */
                       }),
                 ],
               )
