@@ -1,8 +1,21 @@
-class Verb {
+abstract class Item {
+  String get cs;
+  String get en;
+  int get level;
+  int get id;
+  String get type;
+}
+
+class Verb implements Item {
+  @override
   final String cs;
+  @override
   final String en;
+  @override
   final int level;
+  @override
   final int id;
+  @override
   final String type = 'verb';
 
   Verb({
@@ -32,11 +45,16 @@ class Verb {
   }
 }
 
-class Word {
+class Word implements Item {
+  @override
   final String cs;
+  @override
   final String en;
+  @override
   final int level;
+  @override
   final int id;
+  @override
   final String type = 'word';
 
   Word({

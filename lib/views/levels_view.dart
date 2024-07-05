@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
+import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
 import 'package:project_aj/views/guess_view.dart';
 import '../provider/data_provider.dart';
@@ -33,7 +34,8 @@ class LevelsView extends StatelessWidget {
               ),
             ),
             ...List.generate(levelsCount, (index) {
-              final items = dataProvider.getItemsForLevel(index + 1, type);
+              final List<Item> items =
+                  dataProvider.getItemsForLevel(index + 1, type);
               return Padding(
                 padding: const EdgeInsets.all(6.0),
                 child: Align(

@@ -32,15 +32,11 @@ class FirebaseDataProvider extends ChangeNotifier {
     }
   }
 
-  List<dynamic> getItemsForLevel(int level, ItemType type) {
+  List<Item> getItemsForLevel(int level, ItemType type) {
     if (type == ItemType.verbs) {
-      return _verbs.verbList
-          .where((element) => element.level == level)
-          .toList();
+      return _verbs.verbList.where((verb) => verb.level == level).toList();
     } else {
-      return _words.wordList
-          .where((element) => element.level == level)
-          .toList();
+      return _words.wordList.where((word) => word.level == level).toList();
     }
   }
 
