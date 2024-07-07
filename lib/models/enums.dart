@@ -3,3 +3,9 @@ enum ItemType {
   words,
   phrase,
 }
+
+enum ItemStatus {
+  unfilled,
+  correctly,
+  badly,
+}

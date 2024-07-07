@@ -22,7 +22,7 @@ class ItemTextField extends StatelessWidget {
       ),
       cursorColor: Colors.white,
       style: const TextStyle(color: Colors.white, fontSize: 22),
-      textCapitalization: TextCapitalization.words,
+      textCapitalization: TextCapitalization.none,
       textAlign: TextAlign.center,
     );
   }

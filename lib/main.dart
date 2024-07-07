@@ -1,7 +1,9 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:project_aj/provider/data_provider.dart';
+import 'package:project_aj/provider/selection_provider.dart';
 import 'package:provider/provider.dart';
 import './views/introductory_view.dart';
 
@@ -22,8 +24,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (context) => FirebaseDataProvider(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (context) => FirebaseDataProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => SelectionProvider(),
+        ),
+      ],
       child: MaterialApp(
         title: 'Project-AJ',
         debugShowCheckedModeBanner: false,
