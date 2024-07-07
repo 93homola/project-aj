@@ -88,34 +88,10 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                           context,
                           MaterialPageRoute(builder: (context) {
                             return const LevelsView(
-                              type: ItemType.phrase,
+                              type: ItemType.phrases,
                             );
                           }),
                         );
-                      }),
-                  const SizedBox(height: 12),
-                  IntroductoryButton(
-                      buttonText: 'Add item',
-                      onPressed: () {
-                        /* Provider.of<FirebaseDataProvider>(context,
-                                listen: false)
-                            .editItem(
-                          Verb(
-                            cs: "běhat",
-                            en: "run",
-                            level: 1,
-                            id: 1,
-                          ),
-                          ItemType.words,
-                        ); */
-                      }),
-                  const SizedBox(height: 12),
-                  IntroductoryButton(
-                      buttonText: 'Load settings',
-                      onPressed: () {
-                        /* Provider.of<FirebaseDataProvider>(context,
-                                listen: false)
-                            .loadSettings(); */
                       }),
                 ],
               )

@@ -1,7 +1,7 @@
 enum ItemType {
   verbs,
   words,
-  phrase,
+  phrases,
 }
 
 enum ItemStatus {

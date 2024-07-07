@@ -1,7 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:project_aj/helpers/functions.dart';
 import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
 
@@ -42,7 +41,7 @@ class FirebaseDataProvider extends ChangeNotifier {
 
   Future<void> loadData(ItemType type) async {
     DatabaseEvent itemsFromDatabase =
-        await database.child('/${getTypeForDatabase(type)}').once();
+        await database.child('/${type.name}').once();
 
     if (type == ItemType.verbs) {
       _verbs =
@@ -69,16 +68,27 @@ class FirebaseDataProvider extends ChangeNotifier {
   }
 
   Future<void> editItem(Verb item, ItemType type) async {
-    database
-        .child('/${getTypeForDatabase(type)}/${item.id}')
-        .set(item.toJson());
+    database.child('/${type.name}/${item.id}').set(item.toJson());
   }
 
   Future<void> deleteItem(Verb item, ItemType type) async {
     database.child('/items/${item.id}').remove();
   }
 
-  Future<void> updateLevel(Verb item, ItemType type, int newLevel) async {
-    database.child('/items/${item.id}').update({'level': newLevel});
+  Future<void> updateItemLevel(Item item, ItemType type, int newLevel) async {
+    database.child('/${type.name}/${item.id}').update({'level': newLevel});
+  }
+
+  getSettingsCount(ItemType type) {
+    if (type == ItemType.verbs) {
+      return _settings!.verbsLevels;
+    }
+    if (type == ItemType.words) {
+      return _settings!.wordsLevels;
+    }
+    /* if (type == ItemType.phrases) {
+      return _settings!.phrasesLevels;
+    } */
+    return _settings!.verbsLevels;
   }
 }

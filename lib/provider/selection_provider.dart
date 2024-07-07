@@ -32,7 +32,7 @@ class SelectionProvider extends ChangeNotifier {
     return _actualItem;
   }
 
-  void reset() {
+  void resetSelection() {
     _entryItems = [];
     _actualItem = null;
   }

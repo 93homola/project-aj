@@ -46,7 +46,7 @@ class LevelsView extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) {
-                          return QuessView(
+                          return SelectionView(
                             type: type,
                             items: items,
                             level: index + 1,
@@ -60,11 +60,6 @@ class LevelsView extends StatelessWidget {
             }),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {},
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
       ),
     );
   }

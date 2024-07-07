@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:project_aj/components/item_text_field.dart';
+import 'package:project_aj/components/item_text_field_component.dart';
+import 'package:project_aj/components/result_component.dart';
 import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
+import 'package:project_aj/provider/data_provider.dart';
 import 'package:project_aj/provider/selection_provider.dart';
 import 'package:provider/provider.dart';
 
-class QuessView extends StatefulWidget {
+class SelectionView extends StatefulWidget {
   final ItemType type;
   final List<Item> items;
   final int level;
 
-  const QuessView({
+  const SelectionView({
     super.key,
     required this.type,
     required this.items,
@@ -18,28 +20,31 @@ class QuessView extends StatefulWidget {
   });
 
   @override
-  State<QuessView> createState() => _QuessViewState();
+  State<SelectionView> createState() => _SelectionViewState();
 }
 
-class _QuessViewState extends State<QuessView> {
+class _SelectionViewState extends State<SelectionView> {
   TextEditingController textController = TextEditingController();
-
-  Item? actualItem;
-  ItemStatus status = ItemStatus.unfilled;
+  Item? _actualItem;
+  ItemStatus _status = ItemStatus.unfilled;
+  bool _isSameLevel = false;
 
   @override
   void initState() {
     SelectionProvider provider =
         Provider.of<SelectionProvider>(context, listen: false);
     provider.entryItems = widget.items;
-    actualItem = provider.getActualItem();
+    _actualItem = provider.getActualItem();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
-    SelectionProvider provider =
+    final SelectionProvider provider =
         Provider.of<SelectionProvider>(context, listen: false);
+    final dataProvider =
+        Provider.of<FirebaseDataProvider>(context, listen: false);
+    final int settingsCount = dataProvider.getLevelsCount(widget.type);
     return GestureDetector(
       onTap: () {
         FocusScope.of(context).requestFocus(FocusNode());
@@ -49,14 +54,14 @@ class _QuessViewState extends State<QuessView> {
           automaticallyImplyLeading: false,
           title: Text('${widget.type.name} - Level ${widget.level}'),
         ),
-        body: (actualItem != null)
+        body: (_actualItem != null)
             ? Padding(
                 padding: const EdgeInsets.all(40.0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      actualItem!.cs,
+                      _actualItem!.cs,
                       style: const TextStyle(fontSize: 28),
                     ),
                     const Text(
@@ -64,40 +69,49 @@ class _QuessViewState extends State<QuessView> {
                       style: TextStyle(fontSize: 14),
                     ),
                     const SizedBox(height: 10),
-                    ItemTextField(controller: textController),
+                    ItemTextField(controller: textController, status: _status),
                     const SizedBox(height: 30),
-                    if (status == ItemStatus.correctly)
-                      const Icon(Icons.check_circle_outline_outlined,
-                          size: 50, color: Colors.green),
-                    if (status == ItemStatus.badly)
-                      const Icon(Icons.cancel_outlined,
-                          size: 50, color: Colors.red),
+                    ResultWidget(status: _status, actualItem: _actualItem),
                     const SizedBox(height: 30),
-                    if (status == ItemStatus.unfilled)
+                    if (_status == ItemStatus.unfilled)
                       ElevatedButton(
                         onPressed: () {
                           FocusScope.of(context).requestFocus(FocusNode());
-
-                          if (textController.text == actualItem!.en) {
-                            //zmněna levelu o jeden nahoru pokud neni nejvyssi level!
-                            status = ItemStatus.correctly;
+                          if (textController.text == _actualItem!.en) {
+                            if (widget.level < settingsCount) {
+                              dataProvider.updateItemLevel(
+                                  _actualItem!, widget.type, widget.level + 1);
+                            }
+                            _status = ItemStatus.correctly;
                           } else {
-                            //zmněna levelu o jeden dolu pokud neni nejnizsi level!
-                            status = ItemStatus.badly;
+                            if (widget.level >= 2) {
+                              dataProvider.updateItemLevel(
+                                  _actualItem!, widget.type, widget.level - 1);
+                            }
+                            _status = ItemStatus.badly;
                           }
                           setState(() {});
                         },
                         child: const Text('Ověřit',
                             style: TextStyle(fontSize: 20)),
                       ),
-                    if (status != ItemStatus.unfilled)
+                    if (_status != ItemStatus.unfilled)
                       ElevatedButton(
-                        onPressed: () {
-                          FocusScope.of(context).requestFocus(FocusNode());
-                          //zpět na pocatecni uroven, tzn. pokud je dobre tak o jeden dolu, pokud spatne tak o jeden nahoru, a to pokud je kam
-                        },
-                        child: const Text('Ponechat na stejné úrovni',
-                            style: TextStyle(fontSize: 20)),
+                        onPressed: (!_isSameLevel)
+                            ? () {
+                                _isSameLevel = true;
+                                FocusScope.of(context)
+                                    .requestFocus(FocusNode());
+                                dataProvider.updateItemLevel(
+                                    _actualItem!, widget.type, widget.level);
+                                setState(() {});
+                              }
+                            : null,
+                        child: Text(
+                            (!_isSameLevel)
+                                ? 'Ponechat na stejné úrovni'
+                                : 'Úroveň byla změněna',
+                            style: const TextStyle(fontSize: 20)),
                       ),
                   ],
                 ),
@@ -115,19 +129,25 @@ class _QuessViewState extends State<QuessView> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 ElevatedButton(
-                  onPressed: () {
+                  onPressed: () async {
+                    provider.resetSelection();
                     Navigator.pop(context);
+                    Navigator.pop(context);
+                    await dataProvider.loadData(widget.type);
                   },
                   child: const Text('Konec', style: TextStyle(fontSize: 20)),
                 ),
                 ElevatedButton(
-                  onPressed: () {
-                    provider.nextItemFunction();
-                    actualItem = provider.actualItem;
-                    textController.clear();
-                    status = ItemStatus.unfilled;
-                    setState(() {});
-                  },
+                  onPressed: (_status != ItemStatus.unfilled)
+                      ? () {
+                          provider.nextItemFunction();
+                          _actualItem = provider.actualItem;
+                          textController.clear();
+                          _status = ItemStatus.unfilled;
+                          _isSameLevel = false;
+                          setState(() {});
+                        }
+                      : null,
                   child: const Text('Další', style: TextStyle(fontSize: 20)),
                 ),
               ],
