@@ -27,6 +27,7 @@ class ItemTextField extends StatelessWidget {
         ),
       ),
       cursorColor: Colors.white,
+      autocorrect: false,
       readOnly: (status == ItemStatus.unfilled) ? false : true,
       style: TextStyle(color: setColor(status), fontSize: 22),
       textCapitalization: TextCapitalization.none,

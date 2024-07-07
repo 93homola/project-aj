@@ -28,6 +28,8 @@ class _SelectionViewState extends State<SelectionView> {
   Item? _actualItem;
   ItemStatus _status = ItemStatus.unfilled;
   bool _isSameLevel = false;
+  int _count = 1;
+  bool _isCzechToEnglish = true;
 
   @override
   void initState() {
@@ -35,6 +37,10 @@ class _SelectionViewState extends State<SelectionView> {
         Provider.of<SelectionProvider>(context, listen: false);
     provider.entryItems = widget.items;
     _actualItem = provider.getActualItem();
+    if (widget.level == 3) {
+      _isCzechToEnglish = false;
+      setState(() {});
+    }
     super.initState();
   }
 
@@ -61,12 +67,12 @@ class _SelectionViewState extends State<SelectionView> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      _actualItem!.cs,
+                      (_isCzechToEnglish) ? _actualItem!.cs : _actualItem!.en,
                       style: const TextStyle(fontSize: 28),
                     ),
-                    const Text(
-                      '3/65',
-                      style: TextStyle(fontSize: 14),
+                    Text(
+                      '$_count/${provider.entryItemsCount + 1}',
+                      style: const TextStyle(fontSize: 14),
                     ),
                     const SizedBox(height: 10),
                     ItemTextField(controller: textController, status: _status),
@@ -77,7 +83,10 @@ class _SelectionViewState extends State<SelectionView> {
                       ElevatedButton(
                         onPressed: () {
                           FocusScope.of(context).requestFocus(FocusNode());
-                          if (textController.text == _actualItem!.en) {
+                          if (textController.text ==
+                              ((_isCzechToEnglish)
+                                  ? _actualItem!.en
+                                  : _actualItem!.cs)) {
                             if (widget.level < settingsCount) {
                               dataProvider.updateItemLevel(
                                   _actualItem!, widget.type, widget.level + 1);
@@ -145,6 +154,7 @@ class _SelectionViewState extends State<SelectionView> {
                           textController.clear();
                           _status = ItemStatus.unfilled;
                           _isSameLevel = false;
+                          _count++;
                           setState(() {});
                         }
                       : null,
