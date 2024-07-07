@@ -24,7 +24,7 @@ class LevelsView extends StatelessWidget {
         child: ListView(
           children: [
             const Padding(
-              padding: EdgeInsets.all(20),
+              padding: EdgeInsets.symmetric(vertical: 25, horizontal: 20),
               child: Text(
                 'Vyber si úroveň:',
                 style: TextStyle(

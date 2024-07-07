@@ -731,13 +731,7370 @@
       "id": 103,
       "level": 1,
       "type": "verb"
+    },
+    {
+      "cs": "šikanovat",
+      "en": "bully",
+      "id": 104,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zvýšit",
+      "en": "vyzdvihnout",
+      "id": 105,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "způsobit",
+      "en": "cause",
+      "id": 106,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "potvrdit",
+      "en": "schválit",
+      "id": 107,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "opravit",
+      "en": "fix",
+      "id": 108,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vrtat",
+      "en": "drill",
+      "id": 109,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vystavit",
+      "en": "expose",
+      "id": 110,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozšířit",
+      "en": "šířit",
+      "id": 111,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "odpřisáhnout",
+      "en": "nadávat",
+      "id": 112,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozvádět se",
+      "en": "divorce",
+      "id": 113,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "podezřívat",
+      "en": "suspect",
+      "id": 114,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozřešit",
+      "en": "luštit",
+      "id": 115,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vařit pivo",
+      "en": "brew",
+      "id": 116,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obtěžovat",
+      "en": "trápit",
+      "id": 117,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "postrádat",
+      "en": "lack",
+      "id": 118,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přesvědčit",
+      "en": "convince",
+      "id": 119,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "trápit",
+      "en": "trouble",
+      "id": 120,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "odeslat",
+      "en": "poslat",
+      "id": 121,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nosit (na sobě)",
+      "en": "wear (wore, worn)",
+      "id": 122,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "koupit",
+      "en": "buy (bought, bought)",
+      "id": 123,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "střelit",
+      "en": "shout (shot, shot)",
+      "id": 124,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přestat",
+      "en": "stop",
+      "id": 125,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "lézt (po stěně)",
+      "en": "climb",
+      "id": 126,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stát (hodnota)",
+      "en": "cost",
+      "id": 127,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vzít",
+      "en": "brat",
+      "id": 128,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "položit",
+      "en": "put (put, put)",
+      "id": 129,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vidět",
+      "en": "spatřit",
+      "id": 130,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zapomenout",
+      "en": "forget (forgot, forgotton)",
+      "id": 131,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dát",
+      "en": "give (gave, given)",
+      "id": 132,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "jíst",
+      "en": "eat (ate, eaten)",
+      "id": 133,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "cítit",
+      "en": "feel (felt, felt)",
+      "id": 134,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "věřit",
+      "en": "believe",
+      "id": 135,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "myslet",
+      "en": "think (thought, thought)",
+      "id": 136,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "číst",
+      "en": "read (read, read)",
+      "id": 137,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vybrat",
+      "en": "zvolit",
+      "id": 138,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "bojovat",
+      "en": "fight (fought, fought)",
+      "id": 139,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "sbírat (známky)",
+      "en": "collect",
+      "id": 140,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stoupat",
+      "en": "rise (rose, risen)",
+      "id": 141,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hořet",
+      "en": "burn (burnt, burnt)",
+      "id": 142,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "chytit",
+      "en": "catch (caught, caught)",
+      "id": 143,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dojít",
+      "en": "přijít",
+      "id": 144,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zlomit",
+      "en": "break (broke, broken)",
+      "id": 145,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dostat",
+      "en": "získat",
+      "id": 146,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stát se",
+      "en": "become (became, become)",
+      "id": 147,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "jet",
+      "en": "ride (rode, ridden)",
+      "id": 148,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "znát",
+      "en": "vědět",
+      "id": 149,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "prodat",
+      "en": "sell (sold, sold)",
+      "id": 150,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stát",
+      "en": "stand (stood, stood)",
+      "id": 151,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "krást",
+      "en": "steal (stole, stolen)",
+      "id": 152,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vyhrát",
+      "en": "win (won, won)",
+      "id": 153,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "spát",
+      "en": "sleep (slept, slept)",
+      "id": 154,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hledat",
+      "en": "search",
+      "id": 155,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "pít",
+      "en": "drink (drank, drunk)",
+      "id": 156,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "snít",
+      "en": "dream",
+      "id": 157,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "utratit (peníze)",
+      "en": "spend (spent, spent)",
+      "id": 158,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zapáchat",
+      "en": "smell (smelt, smelt)",
+      "id": 159,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozumět",
+      "en": "pochopit",
+      "id": 160,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "jít",
+      "en": "go (went, gone)",
+      "id": 161,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "setkat se",
+      "en": "meet (met, met)",
+      "id": 162,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "sedět",
+      "en": "sit (sat, sat)",
+      "id": 163,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "mrazit",
+      "en": "zmrazit",
+      "id": 164,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "upřednostňovat",
+      "en": "prefer",
+      "id": 165,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "třepat",
+      "en": "otřást",
+      "id": 166,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ztratit",
+      "en": "prohrát",
+      "id": 167,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "jet na kole",
+      "en": "cycle",
+      "id": 168,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "souhlasit",
+      "en": "agree",
+      "id": 169,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "opravit",
+      "en": "spravit",
+      "id": 170,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stavět",
+      "en": "budovat",
+      "id": 171,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "sbírat",
+      "en": "vybrat",
+      "id": 172,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zavřít",
+      "en": "close",
+      "id": 173,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "kousat",
+      "en": "kousnout",
+      "id": 174,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "cestovat",
+      "en": "travel",
+      "id": 175,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vsadit se",
+      "en": "bet",
+      "id": 176,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozhodnout",
+      "en": "rozhodovat",
+      "id": 177,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "čekat",
+      "en": "wait",
+      "id": 178,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "prohlížet",
+      "en": "view",
+      "id": 179,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "osvítit",
+      "en": "zářit",
+      "id": 180,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hrát",
+      "en": "play",
+      "id": 181,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přinést",
+      "en": "donést",
+      "id": 182,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "udeřit",
+      "en": "trefit",
+      "id": 183,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nechat",
+      "en": "let (let, let)",
+      "id": 184,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "spadnout",
+      "en": "padat",
+      "id": 185,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "říkat",
+      "en": "say (said, said)",
+      "id": 186,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "držet",
+      "en": "hold (held, held)",
+      "id": 187,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zpívat",
+      "en": "sing (sang, sung)",
+      "id": 188,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "letět",
+      "en": "fly (flew, flown)",
+      "id": 189,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "znamenat",
+      "en": "mean (meant, meant)",
+      "id": 190,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "poškodit",
+      "en": "damage",
+      "id": 191,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "krájet",
+      "en": "řezat",
+      "id": 192,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ležet",
+      "en": "lie (lay, lain)",
+      "id": 193,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "psát",
+      "en": "write (wrote, written)",
+      "id": 194,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "učit se",
+      "en": "learn (learnt, learnt)",
+      "id": 195,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hláskovat",
+      "en": "spell (spelt, spelt)",
+      "id": 196,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vést",
+      "en": "lead (led, led)",
+      "id": 197,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nalézt",
+      "en": "objevit",
+      "id": 198,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "krvácet",
+      "en": "bleed (bled, bled)",
+      "id": 199,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zamluvit si",
+      "en": "book",
+      "id": 200,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "držet",
+      "en": "udržet",
+      "id": 201,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hovořit",
+      "en": "speak (spoke, spoken)",
+      "id": 202,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "učit",
+      "en": "teach (taught, taught)",
+      "id": 203,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "růst",
+      "en": "pěstovat",
+      "id": 204,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zkusit",
+      "en": "snažit se",
+      "id": 205,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "studovat",
+      "en": "study",
+      "id": 206,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ponořit",
+      "en": "potopit",
+      "id": 207,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "začít",
+      "en": "begin (began, begun)",
+      "id": 208,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "dělat",
+      "en": "provést",
+      "id": 209,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vsadit",
+      "en": "insert",
+      "id": 210,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "řídit",
+      "en": "drive (drove, driven)",
+      "id": 211,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "probudit",
+      "en": "wake (woke, woken)",
+      "id": 212,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zvonit",
+      "en": "ring",
+      "id": 213,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zamknout",
+      "en": "lock",
+      "id": 214,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "požádat",
+      "en": "zeptat se",
+      "id": 215,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "pozvat",
+      "en": "invite",
+      "id": 216,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "plavat",
+      "en": "swim (swam, swum)",
+      "id": 217,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "viset",
+      "en": "hang (hung, hung)",
+      "id": 218,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "svítit",
+      "en": "osvětlit",
+      "id": 219,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "platit",
+      "en": "pay (paid, paid)",
+      "id": 220,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "prohrát",
+      "en": "lose (lost, lost)",
+      "id": 221,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "skrýt",
+      "en": "schovat se",
+      "id": 222,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nechat",
+      "en": "odejít",
+      "id": 223,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "donutit",
+      "en": "nutit",
+      "id": 224,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "půjčit",
+      "en": "vypůjčit",
+      "id": 225,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "omezit",
+      "en": "snížit",
+      "id": 226,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "ukázat",
+      "en": "předvést",
+      "id": 227,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přiznat se",
+      "en": "confess",
+      "id": 228,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hádat se",
+      "en": "squabble",
+      "id": 229,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obvinit",
+      "en": "blame",
+      "id": 230,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "pískat",
+      "en": "whistle",
+      "id": 231,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "předepsat",
+      "en": "prescribe",
+      "id": 232,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "česat",
+      "en": "comb",
+      "id": 233,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "chválit",
+      "en": "praise",
+      "id": 234,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stopovat",
+      "en": "hitchhike",
+      "id": 235,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "nasměrovat",
+      "en": "direct",
+      "id": 236,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "litovat",
+      "en": "pity",
+      "id": 237,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "chytnout",
+      "en": "grab",
+      "id": 238,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "hrbit se",
+      "en": "stoop",
+      "id": 239,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "odškrtnout",
+      "en": "tick",
+      "id": 240,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "objevit",
+      "en": "odhalit",
+      "id": 241,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zasloužit si",
+      "en": "deserve",
+      "id": 242,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přidat",
+      "en": "sčítat",
+      "id": 243,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "udržovat",
+      "en": "zachovávat",
+      "id": 244,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "obdivovat",
+      "en": "admire",
+      "id": 245,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "kvést",
+      "en": "blossom",
+      "id": 246,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zaspat",
+      "en": "oversleep",
+      "id": 247,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "havarovat",
+      "en": "crash",
+      "id": 248,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "symbolizovat",
+      "en": "symbolize",
+      "id": 249,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "jednat",
+      "en": "obchodovat",
+      "id": 250,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "bodnout",
+      "en": "stab",
+      "id": 251,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přehánět",
+      "en": "overdo",
+      "id": 252,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "konzumovat",
+      "en": "consume",
+      "id": 253,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "závidět",
+      "en": "envy",
+      "id": 254,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "pumpovat",
+      "en": "pump",
+      "id": 255,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "porazit",
+      "en": "zničit",
+      "id": 256,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "přivézt do rozpaků",
+      "en": "embarrass",
+      "id": 257,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "lesknout se",
+      "en": "pohlédnout",
+      "id": 258,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "stydět se",
+      "en": "blush",
+      "id": 259,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zabránit",
+      "en": "předcházet",
+      "id": 260,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "zranit",
+      "en": "poranit",
+      "id": 261,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "lokalizovat",
+      "en": "locate",
+      "id": 262,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "uchopit",
+      "en": "sevřít",
+      "id": 263,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozbalit",
+      "en": "unwrap",
+      "id": 264,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "rozpadat se",
+      "en": "unravel",
+      "id": 265,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "definovat",
+      "en": "vymezit",
+      "id": 266,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "bednit",
+      "en": "nasednout",
+      "id": 267,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "míchat",
+      "en": "blend",
+      "id": 268,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "vyhnout se",
+      "en": "avoid",
+      "id": 269,
+      "level": 1,
+      "type": "verb"
+    },
+    {
+      "cs": "soustředit se",
+      "en": "focus",
+      "id": 270,
+      "level": 1,
+      "type": "verb"
     }
   ],
   "words": [
     {
-      "cs": "schopny",
-      "en": "able",
+      "cs": "úroveň",
+      "en": "level",
       "id": 0,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "schopný",
+      "en": "able",
+      "id": 1,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "herec",
+      "en": "actor",
+      "id": 2,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "skutečný, současný",
+      "en": "actual",
+      "id": 3,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "strach",
+      "en": "afraid",
+      "id": 4,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "věk",
+      "en": "age",
+      "id": 5,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vše (ne thing)",
+      "en": "all",
+      "id": 6,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "odpověď",
+      "en": "answer",
+      "id": 7,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "byt (ne flat)",
+      "en": "apartment",
+      "id": 8,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oblast (ne district)",
+      "en": "area",
+      "id": 9,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hrozný (ne terrible)",
+      "en": "awful",
+      "id": 10,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "taška",
+      "en": "bag",
+      "id": 11,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "základ",
+      "en": "basis",
+      "id": 12,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "medvěd",
+      "en": "bear",
+      "id": 13,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krása",
+      "en": "beauty",
+      "id": 14,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přínos",
+      "en": "benefit",
+      "id": 15,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lavička",
+      "en": "bench",
+      "id": 16,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lahvička",
+      "en": "bottle",
+      "id": 17,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ale",
+      "en": "but",
+      "id": 18,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "máslo",
+      "en": "butter",
+      "id": 19,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "od někoho",
+      "en": "by",
+      "id": 20,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "karta",
+      "en": "card",
+      "id": 21,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "příčina",
+      "en": "cause",
+      "id": 22,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "střed",
+      "en": "center",
+      "id": 23,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obřad",
+      "en": "ceremony",
+      "id": 24,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "určitě",
+      "en": "certain",
+      "id": 25,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "graf",
+      "en": "chart",
+      "id": 26,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kostel",
+      "en": "church",
+      "id": 27,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hodiny",
+      "en": "clock",
+      "id": 28,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "klub",
+      "en": "club",
+      "id": 29,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kabát",
+      "en": "coat",
+      "id": 30,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zmatek",
+      "en": "confusion",
+      "id": 31,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "spotřebitel",
+      "en": "consumer",
+      "id": 32,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pokračovat",
+      "en": "continue",
+      "id": 33,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "policajt",
+      "en": "cop",
+      "id": 34,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krize",
+      "en": "crisis",
+      "id": 35,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cyklus",
+      "en": "cycle",
+      "id": 36,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dcera",
+      "en": "daughter",
+      "id": 37,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dluh",
+      "en": "debt",
+      "id": 38,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jelen",
+      "en": "deer",
+      "id": 39,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "popis",
+      "en": "description",
+      "id": 40,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obtížnost",
+      "en": "difficulty",
+      "id": 41,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "směr",
+      "en": "direction",
+      "id": 42,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přímý",
+      "en": "direct",
+      "id": 43,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "katastrofa",
+      "en": "disaster",
+      "id": 44,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ucho",
+      "en": "ear",
+      "id": 45,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "východ",
+      "en": "east",
+      "id": 46,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jinak",
+      "en": "else",
+      "id": 47,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "epizoda",
+      "en": "episode",
+      "id": 48,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "atd.",
+      "en": "etc",
+      "id": 49,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "večer",
+      "en": "evening",
+      "id": 50,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vynikající",
+      "en": "excellent",
+      "id": 51,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cvičení",
+      "en": "exercise",
+      "id": 52,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "spravedlivý",
+      "en": "fair",
+      "id": 53,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pole",
+      "en": "field",
+      "id": 54,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "požár",
+      "en": "fire",
+      "id": 55,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stopa",
+      "en": "foot",
+      "id": 56,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pro",
+      "en": "for",
+      "id": 57,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "čerstvý",
+      "en": "fresh",
+      "id": 58,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "brána",
+      "en": "gate",
+      "id": 59,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dívka",
+      "en": "girl",
+      "id": 60,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cíl",
+      "en": "goal",
+      "id": 61,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "šedá",
+      "en": "gray",
+      "id": 62,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hala",
+      "en": "hall",
+      "id": 63,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pata",
+      "en": "heel",
+      "id": 64,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "otvor",
+      "en": "hole",
+      "id": 65,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "naděje",
+      "en": "hope",
+      "id": 66,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "člověk",
+      "en": "human",
+      "id": 67,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "důležité",
+      "en": "important",
+      "id": 68,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zranění",
+      "en": "injury",
+      "id": 69,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "železo",
+      "en": "iron",
+      "id": 70,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bunda",
+      "en": "jacket",
+      "id": 71,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "radost",
+      "en": "joy",
+      "id": 72,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "popisek",
+      "en": "label",
+      "id": 73,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zákon",
+      "en": "law",
+      "id": 74,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lekce",
+      "en": "lesson",
+      "id": 75,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "půjčka",
+      "en": "loan",
+      "id": 76,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "časopis",
+      "en": "magazine",
+      "id": 77,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "většina",
+      "en": "majority",
+      "id": 78,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "paměť",
+      "en": "memory",
+      "id": 79,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pohyb",
+      "en": "motion",
+      "id": 80,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nikdo",
+      "en": "nobody",
+      "id": 81,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zdravotní sestra",
+      "en": "nurse",
+      "id": 82,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nebo",
+      "en": "or",
+      "id": 83,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "výsledek (ne result)",
+      "en": "outcome",
+      "id": 84,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dlaň",
+      "en": "palm",
+      "id": 85,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cestující",
+      "en": "passenger",
+      "id": 86,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "povolení",
+      "en": "permit",
+      "id": 87,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "potrubí",
+      "en": "pipe",
+      "id": 88,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "příspěvek",
+      "en": "post",
+      "id": 89,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vězení",
+      "en": "prison",
+      "id": 90,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ochrana",
+      "en": "protection",
+      "id": 91,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "docela",
+      "en": "quite",
+      "id": 92,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zdroj",
+      "en": "resource",
+      "id": 93,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "odpočinek",
+      "en": "rest",
+      "id": 94,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "trasa",
+      "en": "route",
+      "id": 95,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pravidlo",
+      "en": "rule",
+      "id": 96,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "omáčka",
+      "en": "sauce",
+      "id": 97,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sedadlo",
+      "en": "seat",
+      "id": 98,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tvar",
+      "en": "shape",
+      "id": 99,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rameno",
+      "en": "shoulder",
+      "id": 100,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "velikost",
+      "en": "size",
+      "id": 101,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "takže",
+      "en": "so",
+      "id": 102,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zvuk",
+      "en": "sound",
+      "id": 103,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krok",
+      "en": "step",
+      "id": 104,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "proud",
+      "en": "stream",
+      "id": 105,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hloupý",
+      "en": "stupid",
+      "id": 106,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oblek",
+      "en": "suit",
+      "id": 107,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vysoký",
+      "en": "tall",
+      "id": 108,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stan",
+      "en": "tent",
+      "id": 109,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "teorie",
+      "en": "theory",
+      "id": 110,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dnes",
+      "en": "today",
+      "id": 111,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hračka",
+      "en": "toy",
+      "id": 112,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "důvěra",
+      "en": "trust",
+      "id": 113,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nahoru",
+      "en": "up",
+      "id": 114,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "násilí",
+      "en": "violence",
+      "id": 115,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "válka",
+      "en": "war",
+      "id": 116,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cokoliv",
+      "en": "whatever",
+      "id": 117,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "široký",
+      "en": "wide",
+      "id": 118,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bez",
+      "en": "without",
+      "id": 119,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mládí",
+      "en": "youth",
+      "id": 120,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "o",
+      "en": "about",
+      "id": 121,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zahraničí",
+      "en": "abroad",
+      "id": 122,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přístup",
+      "en": "access",
+      "id": 123,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "účet (v bance)",
+      "en": "account",
+      "id": 124,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "napříč",
+      "en": "across",
+      "id": 125,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rada",
+      "en": "advice",
+      "id": 126,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "po",
+      "en": "after",
+      "id": 127,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "také (ne too)",
+      "en": "also",
+      "id": 128,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "umělec",
+      "en": "artist",
+      "id": 129,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zpět",
+      "en": "back",
+      "id": 130,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "baterie",
+      "en": "battery",
+      "id": 131,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pláž",
+      "en": "beach",
+      "id": 132,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "fazole",
+      "en": "bean",
+      "id": 133,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rytmus",
+      "en": "beat",
+      "id": 134,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zvonek",
+      "en": "bell",
+      "id": 135,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pták",
+      "en": "bird",
+      "id": 136,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "narození",
+      "en": "birth",
+      "id": 137,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krev",
+      "en": "blood",
+      "id": 138,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chléb",
+      "en": "bread",
+      "id": 139,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přestávka",
+      "en": "break",
+      "id": 140,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "štětec",
+      "en": "brush",
+      "id": 141,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "most",
+      "en": "bridge",
+      "id": 142,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rozpočet",
+      "en": "budget",
+      "id": 143,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zaneprázdněn",
+      "en": "busy",
+      "id": 144,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tlačítko",
+      "en": "button",
+      "id": 145,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kabel",
+      "en": "cable",
+      "id": 146,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tábor",
+      "en": "camp",
+      "id": 147,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kariéra",
+      "en": "career",
+      "id": 148,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hotovost",
+      "en": "cash",
+      "id": 149,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kategorie",
+      "en": "category",
+      "id": 150,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "židle",
+      "en": "chair",
+      "id": 151,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kapitola",
+      "en": "chapter",
+      "id": 152,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sýr",
+      "en": "cheese",
+      "id": 153,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dítě",
+      "en": "child",
+      "id": 154,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "město",
+      "en": "city",
+      "id": 155,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kruh",
+      "en": "circle",
+      "id": 156,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oblečení",
+      "en": "clothes",
+      "id": 157,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kód",
+      "en": "code",
+      "id": 158,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "barva",
+      "en": "color",
+      "id": 159,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kolektiv",
+      "en": "collective",
+      "id": 160,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "komedie",
+      "en": "comedy",
+      "id": 161,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sloupec",
+      "en": "column",
+      "id": 162,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "komentář",
+      "en": "comment",
+      "id": 163,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "konkurent",
+      "en": "competitor",
+      "id": 164,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "koncept",
+      "en": "concept",
+      "id": 165,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "koncert",
+      "en": "concert",
+      "id": 166,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "připojení",
+      "en": "connection",
+      "id": 167,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kontakt",
+      "en": "contact",
+      "id": 168,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obsah",
+      "en": "content",
+      "id": 169,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "smlouva",
+      "en": "contract",
+      "id": 170,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kuchař",
+      "en": "cook",
+      "id": 171,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "země",
+      "en": "country",
+      "id": 172,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kráva",
+      "en": "cow",
+      "id": 173,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obal",
+      "en": "cover",
+      "id": 174,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "šálek",
+      "en": "cup",
+      "id": 175,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "osnovy",
+      "en": "curriculum",
+      "id": 176,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "drahý (osloveni)",
+      "en": "dear",
+      "id": 177,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rozhodnutí",
+      "en": "decision",
+      "id": 178,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poušť",
+      "en": "desert",
+      "id": 179,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přání (ne wish)",
+      "en": "desire",
+      "id": 180,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dialog",
+      "en": "dialogue",
+      "id": 181,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hlína",
+      "en": "dirt",
+      "id": 182,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "miska",
+      "en": "dish",
+      "id": 183,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "okres",
+      "en": "district",
+      "id": 184,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lékař",
+      "en": "doctor",
+      "id": 185,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dveře",
+      "en": "door",
+      "id": 186,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "suché",
+      "en": "dry",
+      "id": 187,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "každý",
+      "en": "each",
+      "id": 188,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "země (zeměkoule)",
+      "en": "earth",
+      "id": 189,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "snadné",
+      "en": "easy",
+      "id": 190,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ekonom",
+      "en": "economist",
+      "id": 191,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vejce",
+      "en": "egg",
+      "id": 192,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "elektřina",
+      "en": "electricity",
+      "id": 193,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prázdné",
+      "en": "empty",
+      "id": 194,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chyba (ne mistake, fault)",
+      "en": "error",
+      "id": 195,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "každý",
+      "en": "everybody",
+      "id": 196,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "každý (ne body)",
+      "en": "everyone",
+      "id": 197,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "příklad",
+      "en": "example",
+      "id": 198,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "víra",
+      "en": "faith",
+      "id": 199,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "daleko",
+      "en": "far",
+      "id": 200,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "móda",
+      "en": "fashion",
+      "id": 201,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zemědělec",
+      "en": "farmer",
+      "id": 202,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "strach (ne affraid)",
+      "en": "fear",
+      "id": 203,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "fikce",
+      "en": "fiction",
+      "id": 204,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prst",
+      "en": "finger",
+      "id": 205,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rámec",
+      "en": "frame",
+      "id": 206,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přítel",
+      "en": "friend",
+      "id": 207,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "od",
+      "en": "from",
+      "id": 208,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ovoce",
+      "en": "fruit",
+      "id": 209,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přední",
+      "en": "front",
+      "id": 210,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "plný",
+      "en": "full",
+      "id": 211,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "galerie",
+      "en": "gallery",
+      "id": 212,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mezera",
+      "en": "gap",
+      "id": 213,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "česnek",
+      "en": "garlic",
+      "id": 214,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "plyn",
+      "en": "gas",
+      "id": 215,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "duch",
+      "en": "ghost",
+      "id": 216,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obří",
+      "en": "giant",
+      "id": 217,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zlato",
+      "en": "gold",
+      "id": 218,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tráva",
+      "en": "grass",
+      "id": 219,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "země (na Zemi)",
+      "en": "ground",
+      "id": 220,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zbraň (ne w)",
+      "en": "gun",
+      "id": 221,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chlapík",
+      "en": "guy",
+      "id": 222,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vlasy",
+      "en": "hair",
+      "id": 223,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "úchyt",
+      "en": "handle",
+      "id": 224,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "klobouk",
+      "en": "hat",
+      "id": 225,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zdraví",
+      "en": "health",
+      "id": 226,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "svatý",
+      "en": "holy",
+      "id": 227,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "med",
+      "en": "honey",
+      "id": 228,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "horký (ne warm)",
+      "en": "hot",
+      "id": 229,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hodina",
+      "en": "hour",
+      "id": 230,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dům",
+      "en": "house",
+      "id": 231,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "v",
+      "en": "in",
+      "id": 232,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "položka",
+      "en": "item",
+      "id": 233,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "práce (ne work)",
+      "en": "job",
+      "id": 234,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cesta (výletní)",
+      "en": "journey",
+      "id": 235,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "klíč",
+      "en": "key",
+      "id": 236,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nůž",
+      "en": "knife",
+      "id": 237,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "znalosti",
+      "en": "knowledge",
+      "id": 238,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "později",
+      "en": "later",
+      "id": 239,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "právník",
+      "en": "lawyer",
+      "id": 240,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "noha",
+      "en": "leg",
+      "id": 241,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "život",
+      "en": "life",
+      "id": 242,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oběd",
+      "en": "lunch",
+      "id": 243,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stroj",
+      "en": "machine",
+      "id": 244,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jídlo",
+      "en": "meal",
+      "id": 245,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kov",
+      "en": "metal",
+      "id": 246,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "metr",
+      "en": "meter",
+      "id": 247,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "metoda",
+      "en": "method",
+      "id": 248,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chyba (ne fault, err)",
+      "en": "mistake",
+      "id": 249,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "více",
+      "en": "more",
+      "id": 250,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vražda",
+      "en": "murder",
+      "id": 251,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "noc",
+      "en": "night",
+      "id": 252,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nos",
+      "en": "nose",
+      "id": 253,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nikde",
+      "en": "nowhere",
+      "id": 254,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nabídka",
+      "en": "offer",
+      "id": 255,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "často",
+      "en": "often",
+      "id": 256,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jednou",
+      "en": "once",
+      "id": 257,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "objednávka",
+      "en": "order",
+      "id": 258,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "naše",
+      "en": "our",
+      "id": 259,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kalhoty (ne trousers)",
+      "en": "pant",
+      "id": 260,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cesta (malá)",
+      "en": "path",
+      "id": 261,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "období (ne season)",
+      "en": "period",
+      "id": 262,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "osoba",
+      "en": "person",
+      "id": 263,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mazlíček",
+      "en": "pet",
+      "id": 264,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rostlina",
+      "en": "plant",
+      "id": 265,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oblíbený (ne fame)",
+      "en": "popular",
+      "id": 266,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "závod",
+      "en": "race",
+      "id": 267,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "červená",
+      "en": "red",
+      "id": 268,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bohatý",
+      "en": "rich",
+      "id": 269,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rýže",
+      "en": "rice",
+      "id": 270,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "řeka",
+      "en": "river",
+      "id": 271,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "růže",
+      "en": "rose",
+      "id": 272,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "moře",
+      "en": "sea",
+      "id": 273,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stín",
+      "en": "shade",
+      "id": 274,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "police",
+      "en": "shelf",
+      "id": 275,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sestra",
+      "en": "sister",
+      "id": 276,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obloha",
+      "en": "sky",
+      "id": 277,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "malý",
+      "en": "small",
+      "id": 278,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kouř",
+      "en": "smoke",
+      "id": 279,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zaměstnanci",
+      "en": "staff",
+      "id": 280,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "slunce",
+      "en": "sun",
+      "id": 281,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "páska",
+      "en": "tape",
+      "id": 282,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "učitel",
+      "en": "teacher",
+      "id": 283,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "čaj",
+      "en": "tea",
+      "id": 284,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "toto",
+      "en": "this",
+      "id": 285,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "věc",
+      "en": "thing",
+      "id": 286,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tenký",
+      "en": "thin",
+      "id": 287,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "doprava",
+      "en": "traffic",
+      "id": 288,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cestování",
+      "en": "travel",
+      "id": 289,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "strom",
+      "en": "tree",
+      "id": 290,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ošklivý",
+      "en": "ugly",
+      "id": 291,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hodnota",
+      "en": "value",
+      "id": 292,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dovolená",
+      "en": "vacation",
+      "id": 293,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "údolí",
+      "en": "valley",
+      "id": 294,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "teplý",
+      "en": "warm",
+      "id": 295,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "západ",
+      "en": "west",
+      "id": 296,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "svět",
+      "en": "world",
+      "id": 297,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "slovo",
+      "en": "word",
+      "id": 298,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "práce (ne job)",
+      "en": "work",
+      "id": 299,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "žlutá",
+      "en": "yellow",
+      "id": 300,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vaše (v jed)",
+      "en": "your",
+      "id": 301,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "špatné",
+      "en": "wrong",
+      "id": 302,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zatímco",
+      "en": "while",
+      "id": 303,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mokrý",
+      "en": "wet",
+      "id": 304,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "když",
+      "en": "when",
+      "id": 305,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "odpad",
+      "en": "waste",
+      "id": 306,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zeď",
+      "en": "wall",
+      "id": 307,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mzda",
+      "en": "wage",
+      "id": 308,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vesnice",
+      "en": "village",
+      "id": 309,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vozidlo",
+      "en": "vehicle",
+      "id": 310,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nástroj (ne tool, instrum)",
+      "en": "utility",
+      "id": 311,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nám",
+      "en": "us",
+      "id": 312,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "unikátní",
+      "en": "unique",
+      "id": 313,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "typ",
+      "en": "type",
+      "id": 314,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nákladák",
+      "en": "truck",
+      "id": 315,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "léčba",
+      "en": "treatment",
+      "id": 316,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "smlouva",
+      "en": "treaty",
+      "id": 317,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stopa, stezka",
+      "en": "trail",
+      "id": 318,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nástroj",
+      "en": "tool",
+      "id": 319,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "také (ne konci)",
+      "en": "too",
+      "id": 320,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dnes večer",
+      "en": "tonight",
+      "id": 321,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zítra",
+      "en": "tomorrow",
+      "id": 322,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "název, nadpis",
+      "en": "title",
+      "id": 323,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pneumatika",
+      "en": "tire",
+      "id": 324,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kravata",
+      "en": "tie",
+      "id": 325,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "divadlo",
+      "en": "theater",
+      "id": 326,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "termín",
+      "en": "term",
+      "id": 327,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "teplota",
+      "en": "temperature",
+      "id": 328,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "daň",
+      "en": "tax",
+      "id": 329,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cíl (ne goal)",
+      "en": "target",
+      "id": 330,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nádrž",
+      "en": "tank",
+      "id": 331,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "překvapení",
+      "en": "surprise",
+      "id": 332,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "povrch, hladina",
+      "en": "surface",
+      "id": 333,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "léto",
+      "en": "summer",
+      "id": 334,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "silný",
+      "en": "strong",
+      "id": 335,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ulice",
+      "en": "street",
+      "id": 336,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zvláštní, divný",
+      "en": "strange",
+      "id": 337,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jeviště",
+      "en": "stage",
+      "id": 338,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hranatý, náměstí",
+      "en": "square",
+      "id": 339,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "řeč",
+      "en": "speech",
+      "id": 340,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prostor, vesmír",
+      "en": "space",
+      "id": 341,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zdroj",
+      "en": "source",
+      "id": 342,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jih",
+      "en": "south",
+      "id": 343,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "píseň",
+      "en": "song",
+      "id": 344,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "brzy",
+      "en": "soon",
+      "id": 345,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "snímek",
+      "en": "slide",
+      "id": 346,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "otrok",
+      "en": "slave",
+      "id": 347,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "situace",
+      "en": "situation",
+      "id": 348,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lyžování",
+      "en": "ski",
+      "id": 349,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dovednost",
+      "en": "skill",
+      "id": 350,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kůže",
+      "en": "skin",
+      "id": 351,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "web",
+      "en": "site",
+      "id": 352,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "od (nějaké doby)",
+      "en": "since",
+      "id": 353,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zpěvák",
+      "en": "singer",
+      "id": 354,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "umyvadlo",
+      "en": "sink",
+      "id": 355,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stříbrná",
+      "en": "silver",
+      "id": 356,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "strana",
+      "en": "side",
+      "id": 357,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sprcha",
+      "en": "shower",
+      "id": 358,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obchod",
+      "en": "shop",
+      "id": 359,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krátký",
+      "en": "short",
+      "id": 360,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bota",
+      "en": "shoe",
+      "id": 361,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "list, prostěradlo",
+      "en": "sheet",
+      "id": 362,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "několik",
+      "en": "several",
+      "id": 363,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "věta, výrok",
+      "en": "sentence",
+      "id": 364,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "semínko",
+      "en": "seed",
+      "id": 365,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sezóna",
+      "en": "season",
+      "id": 366,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vědec",
+      "en": "scientist",
+      "id": 367,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rozsah",
+      "en": "scope",
+      "id": 368,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "měřítko",
+      "en": "scale",
+      "id": 369,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stejné",
+      "en": "same",
+      "id": 370,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vzorek",
+      "en": "sample",
+      "id": 371,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "řádek (ne line)",
+      "en": "row",
+      "id": 372,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "střecha",
+      "en": "roof",
+      "id": 373,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "místnost",
+      "en": "room",
+      "id": 374,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kořen",
+      "en": "root",
+      "id": 375,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lano",
+      "en": "rope",
+      "id": 376,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "recenze",
+      "en": "review",
+      "id": 377,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "výsledek",
+      "en": "result",
+      "id": 378,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vztah",
+      "en": "relationship",
+      "id": 379,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "region",
+      "en": "region",
+      "id": 380,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "záznam",
+      "en": "record",
+      "id": 381,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "surový",
+      "en": "raw",
+      "id": 382,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hodnocení",
+      "en": "rating",
+      "id": 383,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dospělý",
+      "en": "adult",
+      "id": 384,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "souhlasím",
+      "en": "agree",
+      "id": 385,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "letiště",
+      "en": "airport",
+      "id": 386,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "již, už",
+      "en": "already",
+      "id": 387,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prastarý, starobylý",
+      "en": "ancient",
+      "id": 388,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kdokoliv",
+      "en": "anybody",
+      "id": 389,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "každopádně, jakkoliv",
+      "en": "anyway",
+      "id": 390,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kdekoli",
+      "en": "anywhere",
+      "id": 391,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "událost, jmenování",
+      "en": "appointment",
+      "id": 392,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rameno",
+      "en": "arm",
+      "id": 393,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "autor",
+      "en": "author",
+      "id": 394,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zůstatek, rozvaha",
+      "en": "balance",
+      "id": 395,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krásné",
+      "en": "beautiful",
+      "id": 396,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "protože",
+      "en": "because",
+      "id": 397,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "postel",
+      "en": "bed",
+      "id": 398,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ložnice",
+      "en": "bedroom",
+      "id": 399,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pivo",
+      "en": "beer",
+      "id": 400,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "velký",
+      "en": "big",
+      "id": 401,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "narozeniny",
+      "en": "birthday",
+      "id": 402,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ostří",
+      "en": "blade",
+      "id": 403,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kost",
+      "en": "bone",
+      "id": 404,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kniha",
+      "en": "book",
+      "id": 405,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "narozený",
+      "en": "born",
+      "id": 406,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "miska (ne dish)",
+      "en": "bowl",
+      "id": 407,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "snídaně",
+      "en": "breakfast",
+      "id": 408,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cihla",
+      "en": "brick",
+      "id": 409,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "plechovka",
+      "en": "can",
+      "id": 410,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "případ",
+      "en": "case",
+      "id": 411,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oslava",
+      "en": "celebration",
+      "id": 412,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "buňka",
+      "en": "cell",
+      "id": 413,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "třída",
+      "en": "class",
+      "id": 414,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "učebna",
+      "en": "classroom",
+      "id": 415,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kukuřice",
+      "en": "corn",
+      "id": 416,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rohový",
+      "en": "corner",
+      "id": 417,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "náklady",
+      "en": "cost",
+      "id": 418,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krém",
+      "en": "cream",
+      "id": 419,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "datum",
+      "en": "date",
+      "id": 420,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dodávka, doručení",
+      "en": "delivery",
+      "id": 421,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "výkres, kresba",
+      "en": "drawing",
+      "id": 422,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nepřítel",
+      "en": "enemy",
+      "id": 423,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "motor",
+      "en": "engine",
+      "id": 424,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "inženýr",
+      "en": "engineer",
+      "id": 425,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vybavení",
+      "en": "equipment",
+      "id": 426,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "továrna",
+      "en": "factory",
+      "id": 427,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "fakulta",
+      "en": "faculty",
+      "id": 428,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "laskavost",
+      "en": "favor",
+      "id": 429,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obrázek, postava, údaj",
+      "en": "figure",
+      "id": 430,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "soubor",
+      "en": "file",
+      "id": 431,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "konečně",
+      "en": "finally",
+      "id": 432,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "navždy",
+      "en": "forever",
+      "id": 433,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "květ, květina",
+      "en": "flower",
+      "id": 434,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zrní",
+      "en": "grain",
+      "id": 435,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dědeček",
+      "en": "grandfather",
+      "id": 436,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "babička",
+      "en": "grandmother",
+      "id": 437,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "návyk",
+      "en": "habit",
+      "id": 438,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "titulek",
+      "en": "headline",
+      "id": 439,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ústředí",
+      "en": "headquarters",
+      "id": 440,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hlava",
+      "en": "head",
+      "id": 441,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nebe",
+      "en": "heaven",
+      "id": 442,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sluch",
+      "en": "hearing",
+      "id": 443,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bezdomovec",
+      "en": "homeless",
+      "id": 444,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vliv",
+      "en": "influence",
+      "id": 445,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ostrov",
+      "en": "island",
+      "id": 446,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "druh",
+      "en": "kind",
+      "id": 447,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "král",
+      "en": "king",
+      "id": 448,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "polibek",
+      "en": "kiss",
+      "id": 449,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kuchyň",
+      "en": "kitchen",
+      "id": 450,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "koleno",
+      "en": "knee",
+      "id": 451,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "legální",
+      "en": "legal",
+      "id": 452,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "malý (ne small)",
+      "en": "little",
+      "id": 453,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kyselina",
+      "en": "acid",
+      "id": 454,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dobrodružství",
+      "en": "adventure",
+      "id": 455,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "před (dobou, používáno na konci)",
+      "en": "ago",
+      "id": 456,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "samostatně",
+      "en": "alone",
+      "id": 457,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vždy",
+      "en": "always",
+      "id": 458,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "naštvaný",
+      "en": "angry",
+      "id": 459,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zvíře",
+      "en": "animal",
+      "id": 460,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jablko",
+      "en": "apple",
+      "id": 461,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "v (čas)",
+      "en": "at",
+      "id": 462,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dítě",
+      "en": "baby",
+      "id": 463,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pozadí",
+      "en": "background",
+      "id": 464,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "koupelna",
+      "en": "bathroom",
+      "id": 465,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bitva",
+      "en": "battle",
+      "id": 466,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "před (ne ago)",
+      "en": "before",
+      "id": 467,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chování",
+      "en": "behavior",
+      "id": 468,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pásek",
+      "en": "belt",
+      "id": 469,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "účet (v restauraci)",
+      "en": "bill",
+      "id": 470,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přikrývka",
+      "en": "blanket",
+      "id": 471,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "loď (ne ship)",
+      "en": "boat",
+      "id": 472,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hranice",
+      "en": "border",
+      "id": 473,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mozek",
+      "en": "brain",
+      "id": 474,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "značka",
+      "en": "brand",
+      "id": 475,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hnědá",
+      "en": "brown",
+      "id": 476,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dort",
+      "en": "cake",
+      "id": 477,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kočka",
+      "en": "cat",
+      "id": 478,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "století",
+      "en": "century",
+      "id": 479,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "řetěz",
+      "en": "chain",
+      "id": 480,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kanál",
+      "en": "channel",
+      "id": 481,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kuře",
+      "en": "chicken",
+      "id": 482,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "čokoláda",
+      "en": "chocolate",
+      "id": 483,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "občan",
+      "en": "citizen",
+      "id": 484,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "podnebí",
+      "en": "climate",
+      "id": 485,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pobřeží",
+      "en": "coast",
+      "id": 486,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zima",
+      "en": "cold",
+      "id": 487,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kolega",
+      "en": "colleague",
+      "id": 488,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "společnost (firma)",
+      "en": "company",
+      "id": 489,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jádro",
+      "en": "core",
+      "id": 490,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "gauč",
+      "en": "couch",
+      "id": 491,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bavlna",
+      "en": "cotton",
+      "id": 492,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obal",
+      "en": "cover",
+      "id": 493,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pláč",
+      "en": "cry",
+      "id": 494,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kultura",
+      "en": "culture",
+      "id": 495,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zákazník",
+      "en": "customer",
+      "id": 496,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nebezpečí",
+      "en": "danger",
+      "id": 497,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tanec",
+      "en": "dance",
+      "id": 498,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tmavý",
+      "en": "dark",
+      "id": 499,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "den",
+      "en": "day",
+      "id": 500,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mrtvý",
+      "en": "dead",
+      "id": 501,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "desetiletí",
+      "en": "decade",
+      "id": 502,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zpoždění",
+      "en": "delay",
+      "id": 503,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dělení",
+      "en": "division",
+      "id": 504,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pes",
+      "en": "dog",
+      "id": 505,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sen",
+      "en": "dream",
+      "id": 506,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "šaty (ne suit)",
+      "en": "dress",
+      "id": 507,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nápoj",
+      "en": "drink",
+      "id": 508,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prvek",
+      "en": "element",
+      "id": 509,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zaměstnanec",
+      "en": "employee",
+      "id": 510,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "konec",
+      "en": "end",
+      "id": 511,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dost",
+      "en": "enough",
+      "id": 512,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vstup (ne entry)",
+      "en": "entrance",
+      "id": 513,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "každý (věc)",
+      "en": "every",
+      "id": 514,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "událost",
+      "en": "event",
+      "id": 515,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nakonec",
+      "en": "eventually",
+      "id": 516,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přesně (tak)",
+      "en": "exactly",
+      "id": 517,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oko",
+      "en": "eye",
+      "id": 518,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obličej",
+      "en": "face",
+      "id": 519,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "podzim (ne autumn)",
+      "en": "fall",
+      "id": 520,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rodina",
+      "en": "family",
+      "id": 521,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "slavný",
+      "en": "famous",
+      "id": 522,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ventilátor",
+      "en": "fan",
+      "id": 523,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "osud",
+      "en": "fate",
+      "id": 524,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "otec",
+      "en": "father",
+      "id": 525,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oblíbený (věc)",
+      "en": "favorite",
+      "id": 526,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poplatek",
+      "en": "fee",
+      "id": 527,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "plot",
+      "en": "fence",
+      "id": 528,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "málo",
+      "en": "few",
+      "id": 529,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krmení",
+      "en": "feed",
+      "id": 530,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chuť (ne tasty)",
+      "en": "flavor",
+      "id": 531,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "let",
+      "en": "flight",
+      "id": 532,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "patro",
+      "en": "floor",
+      "id": 533,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jídlo (ne meal)",
+      "en": "food",
+      "id": 534,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cizí",
+      "en": "foreign",
+      "id": 535,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "les",
+      "en": "forest",
+      "id": 536,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "volný",
+      "en": "free",
+      "id": 537,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "palivo",
+      "en": "fuel",
+      "id": 538,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nábytek",
+      "en": "furniture",
+      "id": 539,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hra",
+      "en": "game",
+      "id": 540,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zahrada",
+      "en": "garden",
+      "id": 541,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dárek",
+      "en": "gift",
+      "id": 542,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přítelkyně",
+      "en": "girlfriend",
+      "id": 543,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sklo",
+      "en": "glass",
+      "id": 544,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rukavice",
+      "en": "glove",
+      "id": 545,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hrob",
+      "en": "grave",
+      "id": 546,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "potraviny (obchod)",
+      "en": "grocery",
+      "id": 547,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "skupina",
+      "en": "group",
+      "id": 548,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "záruka",
+      "en": "guarantee",
+      "id": 549,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "host",
+      "en": "guest",
+      "id": 550,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "polovina",
+      "en": "half",
+      "id": 551,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ruka",
+      "en": "hand",
+      "id": 552,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tvrdý",
+      "en": "hard",
+      "id": 553,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "srdce",
+      "en": "heart",
+      "id": 554,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "peklo",
+      "en": "hell",
+      "id": 555,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hrdina",
+      "en": "hero",
+      "id": 556,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ona",
+      "en": "her",
+      "id": 557,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zde (ne there)",
+      "en": "here",
+      "id": 558,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jeho",
+      "en": "his",
+      "id": 559,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "on",
+      "en": "him",
+      "id": 560,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kůň",
+      "en": "horse",
+      "id": 561,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nemocnice",
+      "en": "hospital",
+      "id": 562,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jak",
+      "en": "how",
+      "id": 563,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nicméně",
+      "en": "however",
+      "id": 564,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sto",
+      "en": "hundred",
+      "id": 565,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "led",
+      "en": "ice",
+      "id": 566,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nápad",
+      "en": "idea",
+      "id": 567,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obrázek",
+      "en": "image",
+      "id": 568,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "průmysl",
+      "en": "industry",
+      "id": 569,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nástroj",
+      "en": "instrument",
+      "id": 570,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vtip",
+      "en": "joke",
+      "id": 571,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jen",
+      "en": "just",
+      "id": 572,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ty",
+      "en": "you",
+      "id": 573,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mladý",
+      "en": "young",
+      "id": 574,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rok",
+      "en": "year",
+      "id": 575,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dřevo",
+      "en": "wood",
+      "id": 576,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "žena",
+      "en": "woman",
+      "id": 577,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přání (ne desire)",
+      "en": "wish",
+      "id": 578,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vítr",
+      "en": "wind",
+      "id": 579,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "víno",
+      "en": "wine",
+      "id": 580,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "okno",
+      "en": "window",
+      "id": 581,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "manželka",
+      "en": "wife",
+      "id": 582,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "divoký",
+      "en": "wild",
+      "id": 583,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "proč",
+      "en": "why",
+      "id": 584,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bílá",
+      "en": "white",
+      "id": 585,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kdo",
+      "en": "who",
+      "id": 586,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "který",
+      "en": "which",
+      "id": 587,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kde",
+      "en": "where",
+      "id": 588,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "co",
+      "en": "what",
+      "id": 589,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "týden",
+      "en": "week",
+      "id": 590,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "počasí",
+      "en": "weather",
+      "id": 591,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vlna",
+      "en": "wave",
+      "id": 592,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cesta (auta...)",
+      "en": "way",
+      "id": 593,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "voda",
+      "en": "water",
+      "id": 594,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hlasitost",
+      "en": "volume",
+      "id": 595,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "uživatel",
+      "en": "user",
+      "id": 596,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obvykle",
+      "en": "usually",
+      "id": 597,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "strýc",
+      "en": "uncle",
+      "id": 598,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pod",
+      "en": "under",
+      "id": 599,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "výlet",
+      "en": "trip",
+      "id": 600,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "věž",
+      "en": "tower",
+      "id": 601,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "město (ne city)",
+      "en": "town",
+      "id": 602,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vlak",
+      "en": "train",
+      "id": 603,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rajče",
+      "en": "tomato",
+      "id": 604,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "společně",
+      "en": "together",
+      "id": 605,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "čas",
+      "en": "time",
+      "id": 606,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lístek",
+      "en": "ticket",
+      "id": 607,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zde (ne here)",
+      "en": "there",
+      "id": 608,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jejich",
+      "en": "their",
+      "id": 609,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "motiv",
+      "en": "theme",
+      "id": 610,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chuť",
+      "en": "taste",
+      "id": 611,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jistě",
+      "en": "sure",
+      "id": 612,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cukr",
+      "en": "sugar",
+      "id": 613,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "úspěch",
+      "en": "success",
+      "id": 614,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "styl",
+      "en": "style",
+      "id": 615,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "student",
+      "en": "student",
+      "id": 616,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bouře",
+      "en": "storm",
+      "id": 617,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "příběh",
+      "en": "story",
+      "id": 618,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hvězda",
+      "en": "star",
+      "id": 619,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "polévka",
+      "en": "soup",
+      "id": 620,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "syn",
+      "en": "son",
+      "id": 621,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "někdo (ne somebody)",
+      "en": "someone",
+      "id": 622,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "něco",
+      "en": "something",
+      "id": 623,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "někdy",
+      "en": "sometimes",
+      "id": 624,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kopaná",
+      "en": "soccer",
+      "id": 625,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "loď (ne boat)",
+      "en": "ship",
+      "id": 626,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "písek",
+      "en": "sand",
+      "id": 627,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "silnice",
+      "en": "road",
+      "id": 628,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "restaurace",
+      "en": "restaurant",
+      "id": 629,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "opravdu",
+      "en": "really",
+      "id": 630,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "důvod",
+      "en": "reason",
+      "id": 631,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vaše (v mn)",
+      "en": "yours",
+      "id": 632,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "včera",
+      "en": "yesterday",
+      "id": 633,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dvorek",
+      "en": "yard",
+      "id": 634,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dílna",
+      "en": "workshop",
+      "id": 635,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dřevěný",
+      "en": "wooden",
+      "id": 636,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "báječně",
+      "en": "wonderful",
+      "id": 637,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zima",
+      "en": "winter",
+      "id": 638,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vítěz",
+      "en": "winner",
+      "id": 639,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kdykoliv",
+      "en": "whenever",
+      "id": 640,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kolo (od auta)",
+      "en": "wheel",
+      "id": 641,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "svatba",
+      "en": "wedding",
+      "id": 642,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zbraň (ne gun)",
+      "en": "weapon",
+      "id": 643,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hodinky",
+      "en": "watch",
+      "id": 644,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "chůze",
+      "en": "walk",
+      "id": 645,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hlasování",
+      "en": "vote",
+      "id": 646,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dobrovolník",
+      "en": "volunteer",
+      "id": 647,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hlas",
+      "en": "voice",
+      "id": 648,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "návštěvník",
+      "en": "visitor",
+      "id": 649,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "porušení",
+      "en": "violation",
+      "id": 650,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oběť",
+      "en": "victim",
+      "id": 651,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vítězství",
+      "en": "victory",
+      "id": 652,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zelenina",
+      "en": "vegetable",
+      "id": 653,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "neznaný",
+      "en": "unknown",
+      "id": 654,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "na rozdíl, odlišný",
+      "en": "unlike",
+      "id": 655,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vesmír",
+      "en": "universe",
+      "id": 656,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "univerzita",
+      "en": "university",
+      "id": 657,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bohužel",
+      "en": "unfortunately",
+      "id": 658,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "potíže",
+      "en": "trouble",
+      "id": 659,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "trend",
+      "en": "trend",
+      "id": 660,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tragedie",
+      "en": "tragedy",
+      "id": 661,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obchod (burzovní)",
+      "en": "trade",
+      "id": 662,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tradice",
+      "en": "tradition",
+      "id": 663,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "směrem",
+      "en": "towards",
+      "id": 664,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prohlídka",
+      "en": "tour",
+      "id": 665,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "turista",
+      "en": "tourist",
+      "id": 666,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "turnaj",
+      "en": "tournament",
+      "id": 667,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "celkem",
+      "en": "total",
+      "id": 668,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "téma",
+      "en": "topic",
+      "id": 669,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "drobné",
+      "en": "tiny",
+      "id": 670,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hod",
+      "en": "throw",
+      "id": 671,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tyto",
+      "en": "these",
+      "id": 672,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "samí (ne ou)",
+      "en": "themselves",
+      "id": 673,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pak (ne after)",
+      "en": "then",
+      "id": 674,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oni",
+      "en": "them",
+      "id": 675,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "že",
+      "en": "that",
+      "id": 676,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hrozný (ne awful)",
+      "en": "terrible",
+      "id": 677,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "území",
+      "en": "territory",
+      "id": 678,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "teror",
+      "en": "terror",
+      "id": 679,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "terorismus",
+      "en": "terrorism",
+      "id": 680,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "technologie",
+      "en": "technology",
+      "id": 681,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "trhlina",
+      "en": "tear",
+      "id": 682,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "úkol, úloha",
+      "en": "task",
+      "id": 683,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ocas",
+      "en": "tail",
+      "id": 684,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "úmrtí",
+      "en": "death",
+      "id": 685,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obchod (mezi lidmi)",
+      "en": "deal",
+      "id": 686,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "data",
+      "en": "data",
+      "id": 687,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tma",
+      "en": "darkness",
+      "id": 688,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nebezpečně",
+      "en": "dangerous",
+      "id": 689,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poškození",
+      "en": "damage",
+      "id": 690,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kulturní",
+      "en": "cultural",
+      "id": 691,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dav",
+      "en": "crowd",
+      "id": 692,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "šíleně",
+      "en": "crazy",
+      "id": 693,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kurz",
+      "en": "course",
+      "id": 694,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kraj",
+      "en": "county",
+      "id": 695,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mohl",
+      "en": "could",
+      "id": 696,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "správně",
+      "en": "correct",
+      "id": 697,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "beton",
+      "en": "concrete",
+      "id": 698,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kombinace",
+      "en": "combination",
+      "id": 699,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vysoká škola",
+      "en": "college",
+      "id": 700,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kolekce",
+      "en": "collection",
+      "id": 701,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "uhlí",
+      "en": "coal",
+      "id": 702,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nápověda, vodítko",
+      "en": "clue",
+      "id": 703,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nehoda",
+      "en": "accident",
+      "id": 704,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "znovu",
+      "en": "again",
+      "id": 705,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "odpoledne",
+      "en": "afternoon",
+      "id": 706,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "plast",
+      "en": "plastic",
+      "id": 707,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tálíř",
+      "en": "plate",
+      "id": 708,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kapsa",
+      "en": "pocket",
+      "id": 709,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "báseň",
+      "en": "poem",
+      "id": 710,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poezie",
+      "en": "poetry",
+      "id": 711,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bod",
+      "en": "point",
+      "id": 712,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "začátek",
+      "en": "beginning",
+      "id": 713,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "za",
+      "en": "behind",
+      "id": 714,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sázka",
+      "en": "bet",
+      "id": 715,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mezi",
+      "en": "between",
+      "id": 716,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vina",
+      "en": "blame",
+      "id": 717,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "telefon",
+      "en": "phone",
+      "id": 718,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "fotograf",
+      "en": "photographer",
+      "id": 719,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obrazek (ne image)",
+      "en": "picture",
+      "id": 720,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "fráze",
+      "en": "phrase",
+      "id": 721,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "místo",
+      "en": "place",
+      "id": 722,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "plán",
+      "en": "plan",
+      "id": 723,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "letadlo",
+      "en": "plane",
+      "id": 724,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "planeta",
+      "en": "planet",
+      "id": 725,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hráč",
+      "en": "player",
+      "id": 726,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "potěšení",
+      "en": "pleasure",
+      "id": 727,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kolejnice",
+      "en": "rail",
+      "id": 728,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "déšť",
+      "en": "rain",
+      "id": 729,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "rozsah",
+      "en": "range",
+      "id": 730,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zřídka",
+      "en": "rarely",
+      "id": 731,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "míra",
+      "en": "rate",
+      "id": 732,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bezpečnost",
+      "en": "safety",
+      "id": 733,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "smutně",
+      "en": "sad",
+      "id": 734,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bezpečný",
+      "en": "safe",
+      "id": 735,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "prodej",
+      "en": "sale",
+      "id": 736,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "scénář",
+      "en": "scenario",
+      "id": 737,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "harmonogram, plán",
+      "en": "schedule",
+      "id": 738,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "schéma",
+      "en": "scheme",
+      "id": 739,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "věda",
+      "en": "science",
+      "id": 740,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "tabulka",
+      "en": "table",
+      "id": 741,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přepínač",
+      "en": "switch",
+      "id": 742,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "houpačka",
+      "en": "swing",
+      "id": 743,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dočasně",
+      "en": "temporary",
+      "id": 744,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "napětí, pnutí",
+      "en": "tension",
+      "id": 745,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "než",
+      "en": "than",
+      "id": 746,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "terapie",
+      "en": "therapy",
+      "id": 747,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "proto, tedy",
+      "en": "therefore",
+      "id": 748,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zatím",
+      "en": "yet",
+      "id": 749,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "výnos, úrodnost",
+      "en": "yield",
+      "id": 750,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "svědek, svědectví",
+      "en": "witness",
+      "id": 751,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "moudrý",
+      "en": "wise",
+      "id": 752,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "celá, celý",
+      "en": "whole",
+      "id": 753,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hmotnost",
+      "en": "weight",
+      "id": 754,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zrak",
+      "en": "vision",
+      "id": 755,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dědictví",
+      "en": "heritage",
+      "id": 756,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vysoký",
+      "en": "high",
+      "id": 757,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zvýraznění",
+      "en": "highlight",
+      "id": 758,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dálnice",
+      "en": "highway",
+      "id": 759,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kopec",
+      "en": "hill",
+      "id": 760,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "obrovský",
+      "en": "huge",
+      "id": 761,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "identita",
+      "en": "identity",
+      "id": 762,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ideální",
+      "en": "ideal",
+      "id": 763,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "manžel",
+      "en": "husband",
+      "id": 764,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nelegální",
+      "en": "illegal",
+      "id": 765,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "okamžitě",
+      "en": "immediately",
+      "id": 766,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dojem",
+      "en": "impression",
+      "id": 767,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "průmyslový",
+      "en": "industrial",
+      "id": 768,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "spravedlnost, právo",
+      "en": "justice",
+      "id": 769,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zabiják",
+      "en": "killer",
+      "id": 770,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dáma",
+      "en": "lady",
+      "id": 771,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jazyk",
+      "en": "language",
+      "id": 772,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jezero",
+      "en": "lake",
+      "id": 773,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poslední",
+      "en": "last",
+      "id": 774,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "smích",
+      "en": "laugh",
+      "id": 775,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vrstva",
+      "en": "layer",
+      "id": 776,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kuže",
+      "en": "leather",
+      "id": 777,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vlevo",
+      "en": "left",
+      "id": 778,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "způsob",
+      "en": "manner",
+      "id": 779,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "muž (ne male)",
+      "en": "man",
+      "id": 780,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "muž (ne man)",
+      "en": "male",
+      "id": 781,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mapa",
+      "en": "map",
+      "id": 782,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "okraj",
+      "en": "margin",
+      "id": 783,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "značka",
+      "en": "mark",
+      "id": 784,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "manželství",
+      "en": "marriage",
+      "id": 785,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "maso (ne meal)",
+      "en": "meat",
+      "id": 786,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "člen",
+      "en": "member",
+      "id": 787,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nepořádek",
+      "en": "mess",
+      "id": 788,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zpráva",
+      "en": "message",
+      "id": 789,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mléko",
+      "en": "milk",
+      "id": 790,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mysl",
+      "en": "mind",
+      "id": 791,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "důl",
+      "en": "mine",
+      "id": 792,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "menšina",
+      "en": "minority",
+      "id": 793,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zrcadlo",
+      "en": "mirror",
+      "id": 794,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "směs",
+      "en": "mixture",
+      "id": 795,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "skromný",
+      "en": "modest",
+      "id": 796,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "měsíc (kalendární)",
+      "en": "month",
+      "id": 797,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nálada",
+      "en": "mood",
+      "id": 798,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "měsíc (na nebi)",
+      "en": "moon",
+      "id": 799,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "morální",
+      "en": "moral",
+      "id": 800,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ráno",
+      "en": "morning",
+      "id": 801,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "matka",
+      "en": "mother",
+      "id": 802,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nezbytně",
+      "en": "necessary",
+      "id": 803,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "krk",
+      "en": "neck",
+      "id": 804,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nervózní",
+      "en": "nervous",
+      "id": 805,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "síť",
+      "en": "network",
+      "id": 806,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nikdy",
+      "en": "never",
+      "id": 807,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nicméně",
+      "en": "nevertheless",
+      "id": 808,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nový",
+      "en": "new",
+      "id": 809,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "čtvrť",
+      "en": "neighborhood",
+      "id": 810,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "soused",
+      "en": "neighbor",
+      "id": 811,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "zprávy",
+      "en": "news",
+      "id": 812,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "noviny",
+      "en": "newspaper",
+      "id": 813,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "další",
+      "en": "next",
+      "id": 814,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pěkně",
+      "en": "nice",
+      "id": 815,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "sever",
+      "en": "north",
+      "id": 816,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poznámka",
+      "en": "note",
+      "id": 817,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nic",
+      "en": "nothing",
+      "id": 818,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "upozornění",
+      "en": "notice",
+      "id": 819,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nyní",
+      "en": "now",
+      "id": 820,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "číslo",
+      "en": "number",
+      "id": 821,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "matice (ne matrix)",
+      "en": "nut",
+      "id": 822,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "příležitost",
+      "en": "occasion",
+      "id": 823,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "kancelář",
+      "en": "office",
+      "id": 824,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oficiální",
+      "en": "official",
+      "id": 825,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "olej",
+      "en": "oil",
+      "id": 826,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "starý",
+      "en": "old",
+      "id": 827,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "cibule",
+      "en": "onion",
+      "id": 828,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pouze",
+      "en": "only",
+      "id": 829,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "na",
+      "en": "onto",
+      "id": 830,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "otevřený",
+      "en": "open",
+      "id": 831,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "původ",
+      "en": "origin",
+      "id": 832,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "originál",
+      "en": "original",
+      "id": 833,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ostatní",
+      "en": "other",
+      "id": 834,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "ven",
+      "en": "out",
+      "id": 835,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "samí (ne th)",
+      "en": "ourselves",
+      "id": 836,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "trouba",
+      "en": "oven",
+      "id": 837,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přes",
+      "en": "over",
+      "id": 838,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "celkově (ne total)",
+      "en": "overall",
+      "id": 839,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "balení",
+      "en": "pack",
+      "id": 840,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "balíček",
+      "en": "package",
+      "id": 841,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stránka",
+      "en": "page",
+      "id": 842,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "bolest",
+      "en": "pain",
+      "id": 843,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "malíř",
+      "en": "painter",
+      "id": 844,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "lidé",
+      "en": "people",
+      "id": 845,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pepř",
+      "en": "pepper",
+      "id": 846,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "možná",
+      "en": "perhaps",
+      "id": 847,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "procent",
+      "en": "percentage",
+      "id": 848,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vnímání",
+      "en": "perception",
+      "id": 849,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dokonale",
+      "en": "perfectly",
+      "id": 850,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "večírek",
+      "en": "party",
+      "id": 851,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "pacient",
+      "en": "patient",
+      "id": 852,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "vzor",
+      "en": "pattern",
+      "id": 853,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "platba",
+      "en": "payment",
+      "id": 854,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "stanovisko",
+      "en": "opinion",
+      "id": 855,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "oceán",
+      "en": "ocean",
+      "id": 856,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "útočný",
+      "en": "offensive",
+      "id": 857,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "jaderná",
+      "en": "nuclear",
+      "id": 858,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "román",
+      "en": "novel",
+      "id": 859,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nominace",
+      "en": "nomination",
+      "id": 860,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "poblíž",
+      "en": "nearby",
+      "id": 861,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "přirozeně",
+      "en": "naturally",
+      "id": 862,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "příroda",
+      "en": "nature",
+      "id": 863,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "národ",
+      "en": "nation",
+      "id": 864,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "záhada",
+      "en": "mystery",
+      "id": 865,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mýtus",
+      "en": "myth",
+      "id": 866,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "nahý",
+      "en": "naked",
+      "id": 867,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "název",
+      "en": "name",
+      "id": 868,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "peníze",
+      "en": "money",
+      "id": 869,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "moderní",
+      "en": "modern",
+      "id": 870,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "režim",
+      "en": "mode",
+      "id": 871,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "mise",
+      "en": "mission",
+      "id": 872,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "hlasitě",
+      "en": "loud",
+      "id": 873,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "láska",
+      "en": "love",
+      "id": 874,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "místní",
+      "en": "local",
+      "id": 875,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "živě",
+      "en": "live",
+      "id": 876,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "literatura",
+      "en": "literature",
+      "id": 877,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "řádek (ne row)",
+      "en": "line",
+      "id": 878,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "odkaz",
+      "en": "link",
+      "id": 879,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "životní styl",
+      "en": "lifestyle",
+      "id": 880,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "životnost",
+      "en": "lifetime",
+      "id": 881,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "výtah",
+      "en": "lift",
+      "id": 882,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "knihovna",
+      "en": "library",
+      "id": 883,
+      "level": 1,
+      "type": "word"
+    },
+    {
+      "cs": "dopis",
+      "en": "letter",
+      "id": 884,
       "level": 1,
       "type": "word"
     }
