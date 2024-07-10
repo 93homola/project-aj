@@ -26,11 +26,14 @@ class ResultWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const Icon(Icons.cancel_outlined, size: 50, color: Colors.red),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              child: Text(
-                actualItem!.en,
-                style: const TextStyle(fontSize: 20),
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10),
+                child: Text(
+                  actualItem!.en,
+                  overflow: TextOverflow.ellipsis,
+                  style: const TextStyle(fontSize: 20),
+                ),
               ),
             ),
           ],

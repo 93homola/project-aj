@@ -5,6 +5,7 @@ import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
 import 'package:project_aj/provider/data_provider.dart';
 import 'package:project_aj/provider/selection_provider.dart';
+import 'package:project_aj/views/edit_item_view.dart';
 import 'package:provider/provider.dart';
 
 class SelectionView extends StatefulWidget {
@@ -27,9 +28,9 @@ class _SelectionViewState extends State<SelectionView> {
   TextEditingController textController = TextEditingController();
   Item? _actualItem;
   ItemStatus _status = ItemStatus.unfilled;
-  bool _isSameLevel = false;
   int _count = 1;
   bool _isCzechToEnglish = true;
+  bool _corrected = false;
 
   @override
   void initState() {
@@ -105,22 +106,31 @@ class _SelectionViewState extends State<SelectionView> {
                             style: TextStyle(fontSize: 20)),
                       ),
                     if (_status != ItemStatus.unfilled)
-                      ElevatedButton(
-                        onPressed: (!_isSameLevel)
-                            ? () {
-                                _isSameLevel = true;
-                                FocusScope.of(context)
-                                    .requestFocus(FocusNode());
-                                dataProvider.updateItemLevel(
-                                    _actualItem!, widget.type, widget.level);
-                                setState(() {});
-                              }
-                            : null,
-                        child: Text(
-                            (!_isSameLevel)
-                                ? 'Ponechat na stejné úrovni'
-                                : 'Úroveň byla změněna',
-                            style: const TextStyle(fontSize: 20)),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 10.0),
+                        child: ElevatedButton(
+                          onPressed: (!_corrected)
+                              ? () {
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(builder: (context) {
+                                      return EditItemView(
+                                        item: _actualItem!,
+                                        isCreate: false,
+                                        type: widget.type,
+                                      );
+                                    }),
+                                  ).then((value) {
+                                    if (value == true) {
+                                      _corrected = true;
+                                      setState(() {});
+                                    }
+                                  });
+                                }
+                              : null,
+                          child: const Text('Upravit',
+                              style: TextStyle(fontSize: 20)),
+                        ),
                       ),
                   ],
                 ),
@@ -153,8 +163,8 @@ class _SelectionViewState extends State<SelectionView> {
                           _actualItem = provider.actualItem;
                           textController.clear();
                           _status = ItemStatus.unfilled;
-                          _isSameLevel = false;
                           _count++;
+                          _corrected = false;
                           setState(() {});
                         }
                       : null,

@@ -3,12 +3,14 @@ import 'package:project_aj/models/enums.dart';
 
 class ItemTextField extends StatelessWidget {
   final TextEditingController controller;
+  final bool? normalMode;
   final ItemStatus? status;
 
   const ItemTextField({
     super.key,
     required this.controller,
     this.status,
+    this.normalMode = false,
   });
 
   @override
@@ -28,7 +30,7 @@ class ItemTextField extends StatelessWidget {
       ),
       cursorColor: Colors.white,
       autocorrect: false,
-      readOnly: (status == ItemStatus.unfilled) ? false : true,
+      readOnly: (status == ItemStatus.unfilled || normalMode!) ? false : true,
       style: TextStyle(color: setColor(status), fontSize: 22),
       textCapitalization: TextCapitalization.none,
       textAlign: TextAlign.center,

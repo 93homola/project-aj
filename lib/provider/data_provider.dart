@@ -67,8 +67,30 @@ class FirebaseDataProvider extends ChangeNotifier {
     ]);
   }
 
-  Future<void> editItem(Verb item, ItemType type) async {
-    database.child('/${type.name}/${item.id}').set(item.toJson());
+  Future<void> editItem(
+      {required String cs,
+      required String en,
+      required int level,
+      required int id,
+      required ItemType type}) async {
+    if (type == ItemType.verbs) {
+      final item = Verb(
+        cs: cs,
+        en: en,
+        level: level,
+        id: id,
+      );
+      database.child('/${type.name}/${item.id}').set(item.toJson());
+    }
+    if (type == ItemType.words) {
+      final item = Word(
+        cs: cs,
+        en: en,
+        level: level,
+        id: id,
+      );
+      database.child('/${type.name}/${item.id}').set(item.toJson());
+    }
   }
 
   Future<void> deleteItem(Verb item, ItemType type) async {
