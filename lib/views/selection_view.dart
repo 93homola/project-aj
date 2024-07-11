@@ -25,7 +25,7 @@ class SelectionView extends StatefulWidget {
 }
 
 class _SelectionViewState extends State<SelectionView> {
-  TextEditingController textController = TextEditingController();
+  final TextEditingController _textController = TextEditingController();
   Item? _actualItem;
   ItemStatus _status = ItemStatus.unfilled;
   int _count = 1;
@@ -76,7 +76,7 @@ class _SelectionViewState extends State<SelectionView> {
                       style: const TextStyle(fontSize: 14),
                     ),
                     const SizedBox(height: 10),
-                    ItemTextField(controller: textController, status: _status),
+                    ItemTextField(controller: _textController, status: _status),
                     const SizedBox(height: 30),
                     ResultWidget(status: _status, actualItem: _actualItem),
                     const SizedBox(height: 30),
@@ -84,7 +84,7 @@ class _SelectionViewState extends State<SelectionView> {
                       ElevatedButton(
                         onPressed: () {
                           FocusScope.of(context).requestFocus(FocusNode());
-                          if (textController.text ==
+                          if (_textController.text ==
                               ((_isCzechToEnglish)
                                   ? _actualItem!.en
                                   : _actualItem!.cs)) {
@@ -161,7 +161,7 @@ class _SelectionViewState extends State<SelectionView> {
                       ? () {
                           provider.nextItemFunction();
                           _actualItem = provider.actualItem;
-                          textController.clear();
+                          _textController.clear();
                           _status = ItemStatus.unfilled;
                           _count++;
                           _corrected = false;

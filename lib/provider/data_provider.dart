@@ -31,6 +31,14 @@ class FirebaseDataProvider extends ChangeNotifier {
     }
   }
 
+  int getItemsCount(ItemType type) {
+    if (type == ItemType.verbs) {
+      return _verbs.verbList.length;
+    } else {
+      return _words.wordList.length;
+    }
+  }
+
   List<Item> getItemsForLevel(int level, ItemType type) {
     if (type == ItemType.verbs) {
       return _verbs.verbList.where((verb) => verb.level == level).toList();

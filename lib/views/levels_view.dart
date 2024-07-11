@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:project_aj/components/introductory_button_component.dart';
 import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
+import 'package:project_aj/views/edit_item_view.dart';
+import 'package:project_aj/views/list_of_items_view.dart';
 import 'package:project_aj/views/selection_view.dart';
 import '../provider/data_provider.dart';
 import 'package:provider/provider.dart';
@@ -60,6 +62,41 @@ class LevelsView extends StatelessWidget {
             }),
           ],
         ),
+      ),
+      floatingActionButton: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) {
+                  return EditItemView(
+                    isCreate: true,
+                    type: type,
+                  );
+                }),
+              );
+            },
+            heroTag: 'add',
+            child: const Icon(Icons.add),
+          ),
+          const SizedBox(width: 10),
+          FloatingActionButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) {
+                  return ListOfItemsView(
+                    type: type,
+                  );
+                }),
+              );
+            },
+            heroTag: 'list',
+            child: const Icon(Icons.list),
+          ),
+        ],
       ),
     );
   }

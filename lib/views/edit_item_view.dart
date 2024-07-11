@@ -8,13 +8,13 @@ import 'package:project_aj/provider/data_provider.dart';
 import 'package:provider/provider.dart';
 
 class EditItemView extends StatefulWidget {
-  final Item item;
+  final Item? item;
   final bool isCreate;
   final ItemType type;
 
   const EditItemView({
     super.key,
-    required this.item,
+    this.item,
     required this.isCreate,
     required this.type,
   });
@@ -26,16 +26,19 @@ class EditItemView extends StatefulWidget {
 class _EditItemViewState extends State<EditItemView> {
   final TextEditingController _csController = TextEditingController();
   final TextEditingController _enController = TextEditingController();
-  int? _selectedValue;
+  int _levelValue = 1;
   int? _id;
 
   @override
   void initState() {
     if (!widget.isCreate) {
-      _id = widget.item.id;
-      _csController.text = widget.item.cs;
-      _enController.text = widget.item.en;
-      _selectedValue = widget.item.level;
+      _id = widget.item!.id;
+      _csController.text = widget.item!.cs;
+      _enController.text = widget.item!.en;
+      _levelValue = widget.item!.level;
+    } else {
+      _id = Provider.of<FirebaseDataProvider>(context, listen: false)
+          .getItemsCount(widget.type);
     }
     super.initState();
   }
@@ -77,10 +80,10 @@ class _EditItemViewState extends State<EditItemView> {
                         labelText: "Level: ",
                         onChanged: (value) {
                           setState(() {
-                            _selectedValue = value;
+                            _levelValue = value!;
                           });
                         },
-                        selectedValue: _selectedValue),
+                        selectedValue: _levelValue),
                   ],
                 ),
                 const SizedBox(height: 40),
@@ -90,15 +93,22 @@ class _EditItemViewState extends State<EditItemView> {
                     buttonText: 'Uložit',
                     onPressed: () {
                       FocusScope.of(context).requestFocus(FocusNode());
-                      Provider.of<FirebaseDataProvider>(context, listen: false)
-                          .editItem(
+                      final provider = Provider.of<FirebaseDataProvider>(
+                        context,
+                        listen: false,
+                      );
+                      provider.editItem(
                         cs: _csController.text,
                         en: _enController.text,
-                        level: _selectedValue!,
+                        level: _levelValue,
                         id: _id!,
                         type: widget.type,
                       );
                       Navigator.pop(context, true);
+                      if (widget.isCreate) {
+                        Navigator.pop(context, true);
+                        provider.loadData(widget.type);
+                      }
                     },
                   ),
                 ),
