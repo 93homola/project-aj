@@ -84,14 +84,14 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                   IntroductoryButton(
                       buttonText: 'Fráze',
                       onPressed: () {
-                        Navigator.push(
+                        /* Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) {
                             return const LevelsView(
                               type: ItemType.phrases,
                             );
                           }),
-                        );
+                        ); */
                       }),
                 ],
               )

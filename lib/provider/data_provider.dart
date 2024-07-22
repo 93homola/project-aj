@@ -121,4 +121,19 @@ class FirebaseDataProvider extends ChangeNotifier {
     } */
     return _settings!.verbsLevels;
   }
+
+  List<Item> getFilterItems(ItemType type, {String? firstWord}) {
+    List<Item> items;
+    if (type == ItemType.verbs) {
+      items = _verbs.verbList;
+    } else {
+      items = _words.wordList;
+    }
+
+    if (firstWord != null && firstWord.isNotEmpty) {
+      items = items.where((item) => item.cs.startsWith(firstWord)).toList();
+    }
+
+    return items;
+  }
 }
