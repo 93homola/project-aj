@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:project_aj/components/item_text_field_component.dart';
 import 'package:project_aj/components/result_component.dart';
@@ -38,7 +40,7 @@ class _SelectionViewState extends State<SelectionView> {
         Provider.of<SelectionProvider>(context, listen: false);
     provider.entryItems = widget.items;
     _actualItem = provider.getActualItem();
-    if (widget.level == 3) {
+    if (widget.level == 3 || widget.level == 5) {
       _isCzechToEnglish = false;
       setState(() {});
     }
@@ -165,6 +167,9 @@ class _SelectionViewState extends State<SelectionView> {
                           _status = ItemStatus.unfilled;
                           _count++;
                           _corrected = false;
+                          if (widget.level >= 6) {
+                            _isCzechToEnglish = Random().nextBool();
+                          }
                           setState(() {});
                         }
                       : null,

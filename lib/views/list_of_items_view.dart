@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project_aj/components/introductory_button_component.dart';
 import 'package:project_aj/components/item_text_field_component.dart';
 import 'package:project_aj/models/data_model.dart';
 import 'package:project_aj/models/enums.dart';
@@ -18,7 +17,7 @@ class ListOfItemsView extends StatefulWidget {
 
 class _ListOfItemsViewState extends State<ListOfItemsView> {
   List<Item> _items = [];
-  final TextEditingController _firstWordController = TextEditingController();
+  final TextEditingController _wordsController = TextEditingController();
 
   @override
   void initState() {
@@ -35,6 +34,28 @@ class _ListOfItemsViewState extends State<ListOfItemsView> {
       ),
       body: Column(
         children: [
+          Container(
+            color: Theme.of(context).colorScheme.surface,
+            padding: const EdgeInsets.all(30),
+            child: Column(
+              children: [
+                const Text(
+                  'Vyhledávání:',
+                  style: TextStyle(fontSize: 16),
+                ),
+                ItemTextField(
+                  controller: _wordsController,
+                  normalMode: true,
+                  onChanged: (value) {
+                    _items = Provider.of<FirebaseDataProvider>(context,
+                            listen: false)
+                        .getFilterItems(widget.type, firstWords: value);
+                    setState(() {});
+                  },
+                ),
+              ],
+            ),
+          ),
           Expanded(
             child: ListView.builder(
               itemCount: _items.length,
@@ -86,62 +107,6 @@ class _ListOfItemsViewState extends State<ListOfItemsView> {
             ),
           ),
         ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          /* setState(() {
-            _items = Provider.of<FirebaseDataProvider>(context, listen: false)
-                .getFilterItems(widget.type, firstWord: 'a');
-          }); */
-          showModalBottomSheet(
-            context: context,
-            builder: (BuildContext context) {
-              return Container(
-                color: Theme.of(context).colorScheme.surface,
-                width: double.infinity,
-                height: 300,
-                child: Column(
-                  children: [
-                    const Padding(
-                      padding: EdgeInsets.all(20.0),
-                      child: Text(
-                        'Filtrování podle počátečního písmene:',
-                        style: TextStyle(fontSize: 20),
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 30),
-                      child: ItemTextField(
-                        controller: _firstWordController,
-                        normalMode: true,
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(30),
-                      child: Align(
-                        alignment: Alignment.center,
-                        child: IntroductoryButton(
-                          buttonText: 'Uložit',
-                          onPressed: () {
-                            _items = Provider.of<FirebaseDataProvider>(context,
-                                    listen: false)
-                                .getFilterItems(widget.type,
-                                    firstWord: _firstWordController
-                                        .text.characters.first);
-                            setState(() {});
-                            Navigator.pop(context, true);
-                          },
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-              );
-            },
-          );
-        },
-        heroTag: 'filter',
-        child: const Icon(Icons.filter_list),
       ),
     );
   }

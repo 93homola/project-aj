@@ -6,11 +6,14 @@ class ItemTextField extends StatelessWidget {
   final bool? normalMode;
   final ItemStatus? status;
 
+  final Function? onChanged;
+
   const ItemTextField({
     super.key,
     required this.controller,
     this.status,
     this.normalMode = false,
+    this.onChanged,
   });
 
   @override
@@ -30,6 +33,7 @@ class ItemTextField extends StatelessWidget {
       ),
       cursorColor: Colors.white,
       autocorrect: false,
+      onChanged: (onChanged == null) ? null : (value) => onChanged!(value),
       readOnly: (status == ItemStatus.unfilled || normalMode!) ? false : true,
       style: TextStyle(color: setColor(status), fontSize: 22),
       textCapitalization: TextCapitalization.none,
