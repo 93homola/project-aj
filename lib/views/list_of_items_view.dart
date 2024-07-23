@@ -91,15 +91,20 @@ class _ListOfItemsViewState extends State<ListOfItemsView> {
                           item: _items[index],
                           isCreate: false,
                           type: widget.type,
+                          isDelate: true,
                         );
                       }),
-                    ).then((value) {
-                      Provider.of<FirebaseDataProvider>(context, listen: false)
-                          .loadData(widget.type);
-                      if (value == true) {
-                        Navigator.pop(context);
-                        Navigator.pop(context);
-                      }
+                    ).then((_) async {
+                      await Provider.of<FirebaseDataProvider>(context,
+                              listen: false)
+                          .loadData(widget.type)
+                          .then((_) {
+                        _items = Provider.of<FirebaseDataProvider>(context,
+                                listen: false)
+                            .getFilterItems(widget.type);
+                        _wordsController.clear();
+                        setState(() {});
+                      });
                     });
                   },
                 );

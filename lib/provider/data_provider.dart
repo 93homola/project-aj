@@ -101,8 +101,8 @@ class FirebaseDataProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> deleteItem(Verb item, ItemType type) async {
-    database.child('/items/${item.id}').remove();
+  Future<void> deleteItem(Item item, ItemType type) async {
+    database.child('/${type.name}/${item.id}').remove();
   }
 
   Future<void> updateItemLevel(Item item, ItemType type, int newLevel) async {

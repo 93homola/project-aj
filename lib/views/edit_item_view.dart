@@ -11,12 +11,14 @@ class EditItemView extends StatefulWidget {
   final Item? item;
   final bool isCreate;
   final ItemType type;
+  final bool isDelate;
 
   const EditItemView({
     super.key,
     this.item,
     required this.isCreate,
     required this.type,
+    this.isDelate = false,
   });
 
   @override
@@ -112,6 +114,27 @@ class _EditItemViewState extends State<EditItemView> {
                     },
                   ),
                 ),
+                const SizedBox(height: 20),
+                if (widget.isDelate)
+                  Align(
+                    alignment: Alignment.center,
+                    child: IntroductoryButton(
+                      buttonText: 'Smazat',
+                      onPressed: () {
+                        FocusScope.of(context).requestFocus(FocusNode());
+                        final provider = Provider.of<FirebaseDataProvider>(
+                          context,
+                          listen: false,
+                        );
+                        provider.deleteItem(widget.item!, widget.type);
+                        Navigator.pop(context, true);
+                        if (widget.isCreate) {
+                          Navigator.pop(context, true);
+                          provider.loadData(widget.type);
+                        }
+                      },
+                    ),
+                  ),
               ],
             ),
           ),
