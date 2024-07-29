@@ -107,10 +107,6 @@ class _EditItemViewState extends State<EditItemView> {
                         type: widget.type,
                       );
                       Navigator.pop(context, true);
-                      if (widget.isCreate) {
-                        Navigator.pop(context, true);
-                        provider.loadData(widget.type);
-                      }
                     },
                   ),
                 ),

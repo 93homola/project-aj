@@ -113,6 +113,30 @@ class _ListOfItemsViewState extends State<ListOfItemsView> {
           ),
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) {
+              return EditItemView(
+                isCreate: true,
+                type: widget.type,
+              );
+            }),
+          ).then((_) async {
+            await Provider.of<FirebaseDataProvider>(context, listen: false)
+                .loadData(widget.type)
+                .then((_) {
+              _items = Provider.of<FirebaseDataProvider>(context, listen: false)
+                  .getFilterItems(widget.type);
+              _wordsController.clear();
+              setState(() {});
+            });
+          });
+        },
+        heroTag: 'add',
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }

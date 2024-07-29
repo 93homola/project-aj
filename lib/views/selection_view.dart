@@ -94,6 +94,7 @@ class _SelectionViewState extends State<SelectionView> {
                               dataProvider.updateItemLevel(
                                   _actualItem!, widget.type, widget.level + 1);
                             }
+                            dataProvider.updateHistory(widget.type);
                             _status = ItemStatus.correctly;
                           } else {
                             if (widget.level >= 2) {

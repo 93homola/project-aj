@@ -147,3 +147,47 @@ class Settings {
     };
   }
 }
+
+class HistoryEntry {
+  final int? verbs;
+  final int? words;
+
+  HistoryEntry({
+    required this.verbs,
+    required this.words,
+  });
+
+  factory HistoryEntry.fromJson(Map<String, dynamic> json) {
+    return HistoryEntry(
+      verbs: json['verbs'],
+      words: json['words'],
+    );
+  }
+}
+
+class History {
+  final Map<String, HistoryEntry> days;
+
+  History({
+    required this.days,
+  });
+
+  factory History.fromJson(Map<String, dynamic> json) {
+    Map<String, HistoryEntry> days = {};
+    json.forEach((key, value) {
+      days[key] = HistoryEntry.fromJson(Map<String, dynamic>.from(value));
+    });
+    return History(days: days);
+  }
+
+  History sortedByDate() {
+    var sortedKeys = days.keys.toList()
+      ..sort((a, b) => DateTime.parse(b).compareTo(DateTime.parse(a)));
+
+    Map<String, HistoryEntry> sortedDays = {
+      for (var key in sortedKeys) key: days[key]!
+    };
+
+    return History(days: sortedDays);
+  }
+}

@@ -4,6 +4,7 @@ import 'package:project_aj/provider/data_provider.dart';
 import 'package:project_aj/views/levels_view.dart';
 import 'package:provider/provider.dart';
 import '../models/enums.dart';
+import './history_view.dart';
 
 class IntroductoryView extends StatefulWidget {
   const IntroductoryView({super.key});
@@ -82,8 +83,11 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                       }),
                   const SizedBox(height: 12),
                   IntroductoryButton(
-                      buttonText: 'Fráze',
+                      buttonText: 'Test',
                       onPressed: () {
+                        Provider.of<FirebaseDataProvider>(context,
+                                listen: false)
+                            .loadHistory();
                         /* Navigator.push(
                           context,
                           MaterialPageRoute(builder: (context) {
@@ -96,6 +100,18 @@ class _IntroductoryViewState extends State<IntroductoryView> {
                 ],
               )
             : const CircularProgressIndicator(),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) {
+              return const HistoryView();
+            }),
+          );
+        },
+        heroTag: 'list',
+        child: const Icon(Icons.history_toggle_off_rounded),
       ),
     );
   }

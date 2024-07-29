@@ -136,4 +136,29 @@ class FirebaseDataProvider extends ChangeNotifier {
 
     return items;
   }
+
+  updateHistory(ItemType type) async {
+    String today = DateTime.now().toIso8601String().split('T').first;
+
+    DatabaseEvent databaseEvent =
+        await database.child('/history/$today/${type.name}').once();
+
+    int value = databaseEvent.snapshot.value != null
+        ? databaseEvent.snapshot.value as int
+        : 0;
+
+    value = value + 1;
+
+    database.child('/history/$today').update({type.name: value});
+  }
+
+  Future<History> loadHistory() async {
+    DatabaseEvent historyFromDatabase = await database.child('/history').once();
+
+    History history = History.fromJson(Map<String, dynamic>.from(
+            historyFromDatabase.snapshot.value as Map))
+        .sortedByDate();
+
+    return history;
+  }
 }
