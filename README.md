@@ -1,16 +1,7 @@
-# project_aj
+Jedná se o jednoduchou mobilní aplikaci, která slouží k procvičování anglických slovíček.
 
-A new Flutter project.
+Slovíčka jsou rozdělena do kategorií (úrovní). Aby se slovíčko přesunulo do vyšší úrovně, je nutné na něj správně odpovědět. Pokud uživatel odpoví špatně, slovíčko se naopak přesune do nižší úrovně. Cílem je tedy přesouvat slovíčka do vyšších úrovní a udržet je tam. Každá úroveň má trochu odlišný přístup – někdy je úkol přeložit slovíčka z angličtiny do češtiny, jindy může být způsob procvičování náhodný.
 
-## Getting Started
+V aplikaci je možné slovíčka přidávat, mazat a upravovat. Nachází se zde také historie, která umožňuje sledovat postup uživatele.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
